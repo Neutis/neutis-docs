@@ -29,3 +29,6 @@ markdown_extensions:
 
 pages:
 - Introduction : 'index.md'
+- First setup:
+    - 'Flashing': 'intro/flash.md'
+
