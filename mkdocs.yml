@@ -31,5 +31,8 @@ pages:
 - Introduction : 'index.md'
 - First setup:
     - 'Flashing': 'intro/flash.md'
-    - 'USB-Ethernet SSH': 'intro/usb-ssh.md'
-
+- Connectivity: 
+    - 'How to connect to Neutis?': 'connectivity/connectivity.md'
+    - 'USB-Ethernet': 'connectivity/usb-ssh.md'
+    - 'Wi-Fi': 'connectivity/wifi.md'
+    - 'Ethernet': 'connectivity/ethernet.md'
