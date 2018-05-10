@@ -39,3 +39,5 @@ PuTTy
 
 - Reset the Neutis devboard (photo)
 - Here it goes! (screenshot of screen with Linux booting)
+
+There're other ways to connect to your Neutis. The easiest is to ssh over USB-Ethernet connection. Take a look [here](usb-ssh.md)!
