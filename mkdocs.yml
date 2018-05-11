@@ -41,3 +41,33 @@ pages:
     - 'Interfaces': 'specs/interfaces.md'
     - 'Electrical': 'specs/electrical.md'
     - 'Mechanical': 'specs/mechanical.md'
+- Pinout:
+    - 'Neutis': 'pinout/neutis.md'
+    - 'Neutis Devboard': 'pinout/devboard.md'
+- Software Integration:
+    - 'Choosing the OS': 'software-integration/os.md'
+    - 'Armbian': 'software-integration/armbian.md'
+    - 'Yocto': 'software-integration/yocto.md'
+- Hardware Integration:
+    - 'How to integrate Neutis?': 'hardware-integration/preface.md'
+    - 'Schematics': 'hardware-integration/schematics.md'
+    - 'PCB Design Guide': 'hardware-integration/pcb-guide.md'
+- Examples:
+    - 'GPIO': 'examples/gpio.md'
+    - 'PWM': 'examples/pwm.md'
+    - 'Audio': 'examples/audio.md'
+    - 'I2C': 'examples/i2c.md'
+    - 'SPI': 'examples/spi.md'
+    - 'SDIO': 'examples/sdio.md'
+    - 'Camera': 'examples/camera.md'
+    - 'HDMI': 'examples/hdmi.md'
+- Yocto:
+    - 'Why Yocto?': 'yocto/why.md'
+    - 'Build your own Linux OS': 'yocto/tutorial.md'
+- Neutis Flasher:
+    - 'What is Neutis Flasher?': 'flasher/preface.md'
+    - 'CLI': 'flasher/cli.md'
+    - 'GUI': 'flasher/gui.md'
+- Building a product:
+    - 'Prototype': 'product/prototype.md'
+    - 'Certification': 'product/certs.md'
