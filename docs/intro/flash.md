@@ -1,4 +1,8 @@
-# Choose the distro
+# First setup
+
+A few words in here
+
+## Choose the distro
 
 ### Armbian
 

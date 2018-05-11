@@ -8,7 +8,7 @@ Awesome board
 
 ### Getting started
 
-First step to begin working with Neutis is to [flash with a Linux image](intro/flash.md)
+First step to begin working with Neutis is to [flash with a Linux image and boot](intro/flash.md)
 
 ### Collaboration
 

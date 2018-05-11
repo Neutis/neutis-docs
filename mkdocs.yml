@@ -29,8 +29,7 @@ markdown_extensions:
 
 pages:
 - Introduction : 'index.md'
-- First setup:
-    - 'Flashing': 'intro/flash.md'
+- First setup: 'intro/flash.md'
 - Connectivity: 
     - 'How to connect to Neutis?': 'connectivity/connectivity.md'
     - 'USB-Ethernet': 'connectivity/usb-ssh.md'
