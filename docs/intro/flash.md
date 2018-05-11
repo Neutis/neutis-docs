@@ -25,23 +25,10 @@ A few words in here
 - Screenshot with flashing process
 - Screenshot with "Done"
 
-
-Now we'll see Linux booting on the serial port. Neutis devboard has a soldered out USB-Serial converted. So you
-won't need a separate device to see the output. In order to enable it put a jumper on <UART> pins (photo)
-
-## Serial connection
-
-### Linux/MacOS
-
-screen
-
-### Windows
-
-PuTTy
-
 ## Boot your Neutis!
 
 - Reset the Neutis devboard (photo)
 - Here it goes! (screenshot of screen with Linux booting)
+- To see the actual output by yourself you'll need to [connect over serial](../connectivity/serial.md)
 
-There're other ways to connect to your Neutis. The easiest is to ssh over USB-Ethernet connection. Take a look [here](../connectivity/connectivity.md)!
+There're other ways to connect to your Neutis. Explore other connectivity options [here](../connectivity/connectivity.md)!
