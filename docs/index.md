@@ -4,6 +4,10 @@
 
 Awesome board
 
+Features description of Neutis (hz, gb, 2xUSB etc)
+
+More complete description [here](specs/features.md)
+
 ### Package contents
 
 ### Getting started

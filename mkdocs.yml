@@ -36,3 +36,8 @@ pages:
     - 'USB-Ethernet': 'connectivity/usb-ethernet.md'
     - 'Wi-Fi': 'connectivity/wifi.md'
     - 'Ethernet': 'connectivity/ethernet.md'
+- Specifications:
+    - 'Features': 'specs/features.md'
+    - 'Interfaces': 'specs/interfaces.md'
+    - 'Electrical': 'specs/electrical.md'
+    - 'Mechanical': 'specs/mechanical.md'
