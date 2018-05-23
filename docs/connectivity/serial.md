@@ -57,6 +57,8 @@ screen /dev/tty.SLAB_USBtoUART 115200
 
 ```
 
+<div style="text-align: center;"><img src="../../img/connectivity/login_linux_macos.png" style="width: 500px;"></div><br>
+
 #### Login
 
 At the login prompt, type ```root``` and press Enter.
