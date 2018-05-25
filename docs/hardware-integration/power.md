@@ -18,7 +18,7 @@ Here's a couple small tips. For further information refer to Allwinner H3/H5 dat
 
 In order for Neutis to power up you need to supply voltage to these domains.
 CORE_POWER_IN domain voltage depends on the processor frequency. The higher the voltage,
-the higher power consumption is. For exact figures refer to p.<N> in Allwinner H3/H5 datasheet.
+the higher power consumption is. For exact numbers refer to p.685 in Allwinner H5 datasheet.
 
 |Domain|Voltage|
 |:-:|:-:|
@@ -41,3 +41,14 @@ the higher power consumption is. For exact figures refer to p.<N> in Allwinner H
 |Current on VDD_IO||TBD|
 |Current on 3V3_IN||TBD|
 |Current on VDD_RTC_IN||TBD|
+
+## GPIO Electrical characteristics
+
+|Value|Mix|Typ|Max|
+|:-:|:-:|:-:|:-:|
+|High-Level logic output Voltage|VDD_IO - 0.2V||VDD_IO|
+|Low-Level logic output Voltage|0V||0.2V|
+|Internal pullup/pulldown resistor value|50k|Ohm100k|Ohm150k Ohm|
+|High-Level logic input Current|||10uA|
+|Low-Level logic input Current|||10uA|
+|Three state output Leakage current|-10uA||10uA|
