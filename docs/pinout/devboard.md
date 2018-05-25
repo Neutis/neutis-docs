@@ -4,7 +4,7 @@
 <a href="../../img/pinout/dev_board_pinout.png" target="_blank"> ![scheme](../../img/pinout/dev_board_pinout.png)</a>
 
 ### Main header (X6)
-<a href="../../img/pinout/x6.png" target="_blank"> ![scheme](../../img/pinout/x6.png)</a>
+<a href="../../img/pinout/X6.png" target="_blank"> ![scheme](../../img/pinout/X6.png)</a>
 
 !!! tip
     You can click on the column header to sort by it
@@ -23,10 +23,10 @@
 |12|PA16|SPI1_MISO|UART3_CTS|-|-|PA_EINT16|
 
 ### Camera header (X7)
-<a href="../../img/pinout/x7.png" target="_blank"> ![scheme](../../img/pinout/x7.png)</a>
+<a href="../../img/pinout/X7.png" target="_blank"> ![scheme](../../img/pinout/X7.png)</a>
 
-### UART header (X1,X15)
-<a href="../../img/pinout/x1-x15.png" target="_blank"> ![scheme](../../img/pinout/x1-x15.png)</a>
+### UART header (X1,X15), USB3 header (X18)
+<a href="../../img/pinout/X1_X15_X18.png" target="_blank"> ![scheme](../../img/pinout/X1_X15_X18.png)</a>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.0.2/tablesort.min.js"></script>
