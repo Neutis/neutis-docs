@@ -1,5 +1,5 @@
-| Features  |  []()
-------|-------:
+|Features||
+|:-|:-|
 CPU | Allwinner H5 quad-core 64-bit ARM Cortex-A53
 GPU| Mali 450 MP4
 Max frequency | 1.3 GHz
