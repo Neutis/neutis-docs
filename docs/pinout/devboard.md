@@ -71,6 +71,18 @@
 ### SDIO0 header (X10), audio header (X13)
 <a href="../../img/pinout/X10_X13.png" target="_blank"> ![scheme](../../img/pinout/X10_X13.png)</a>
 
+<div class="x10-header-table-start"></div>
+
+|Physical|Allwinner|Alt2|Alt3|Alt4|Alt5|Alt6
+|:-:|:-:|:--:|:--:|:--:|:--:|:--:|
+|2|PF1|SDC0_D0|JTAG_DI|-|-|-|
+|3|PF0|SDC0_D1|JTAG_MS|-|-|-|
+|4|PF2|SDC0_CLK|UART0_TX|-|-|-|
+|5|PF3|SDC0_CMD|JTAG_DO|-|-|-|
+|6|PF5|SDC0_D2|JTAG_CK|-|-|-|
+|7|PF4|SDC0_D3|UART0_RX|-|-|-|
+|8|PF6|SDC0_DET|-|-|-|-|
+
 ### UART header (X1,X15), USB3 header (X18)
 <a href="../../img/pinout/X1_X15_X18.png" target="_blank"> ![scheme](../../img/pinout/X1_X15_X18.png)</a>
 
