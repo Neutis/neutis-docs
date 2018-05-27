@@ -47,6 +47,27 @@
 ### Camera header (X7)
 <a href="../../img/pinout/X7.png" target="_blank"> ![scheme](../../img/pinout/X7.png)</a>
 
+<div class="x7-header-table-start"></div>
+
+|Physical|Allwinner|Alt2|Alt3|Alt4|Alt5|Alt6
+|:-:|:-:|:--:|:--:|:--:|:--:|:--:|
+|3|PE1|CSI_MCLK|TS_ERR|-|-|-|
+|4|PE0|CSI_PCLK|TS_CLK|-|-|-|
+|7|PE2|CSI_HSYNC|TS_SYNC|-|-|-|
+|8|PE3|CSI_VSYNC|TS_DVLD|-|-|-|
+|9|PE4|CSI_D0|TS_D0|-|-|-|
+|10|PE5|CSI_D1|TS_D1|-|-|-|
+|11|PE6|CSI_D2|TS_D2|-|-|-|
+|12|PE7|CSI_D3|TS_D3|-|-|-|
+|13|PE8|CSI_D4|TS_D4|-|-|-|
+|14|PE9|CSI_D5|TS_D5|-|-|-|
+|15|PE10|CSI_D6|TS_D6|-|-|-|
+|16|PE11|CSI_D7|TS_D7|-|-|-|
+|17|PE12|CSI_SCK|TWI2_SCK|-|-|-|
+|19|PE13|CSI_SDA|TWI2_SDA|-|-|-|
+|21|PE14|-|-|-|-|-|
+|22|PE15|-|-|-|-|-|
+
 ### SDIO0 header (X10), audio header (X13)
 <a href="../../img/pinout/X10_X13.png" target="_blank"> ![scheme](../../img/pinout/X10_X13.png)</a>
 
