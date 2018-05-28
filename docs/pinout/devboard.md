@@ -80,6 +80,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         new Tablesort($('div.x6-header-table-start').next().find('table')[0]);
+        new Tablesort($('div.x7-header-table-start').next().find('table')[0]);
     });
 </script>
 <script>
