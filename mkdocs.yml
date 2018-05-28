@@ -5,8 +5,8 @@ repo_url: https://github.com/emlid/neutis-docs
 
 extra:
   palette:
-    primary: 'light blue'
-    accent: 'light blue'
+    primary: 'green'
+    accent: 'green'
   logo: 'img/logo.png'
   social:
     - type: 'github'
