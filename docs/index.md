@@ -10,6 +10,8 @@ More complete description [here](specs/features.md)
 
 ### Package contents
 
+![scheme](../../img/package_contents.png)</a>
+
 ### Getting started
 
 First step to begin working with Neutis is to [flash with a Linux image and boot](intro/flash.md)
