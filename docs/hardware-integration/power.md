@@ -50,7 +50,7 @@ the higher power consumption is. For exact numbers refer to p.685 in Allwinner H
 |:-:|:-:|:-:|:-:|
 |High-Level logic output Voltage|VDD_IO - 0.2V||VDD_IO|
 |Low-Level logic output Voltage|0V||0.2V|
-|Internal pullup/pulldown resistor value|50k|Ohm100k|Ohm150k Ohm|
+|Internal pullup/pulldown resistor value|50k Ohm|100k Ohm|150k Ohm|
 |High-Level logic input Current|||10uA|
 |Low-Level logic input Current|||10uA|
 |Three state output Leakage current|-10uA||10uA|
