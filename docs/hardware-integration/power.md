@@ -11,19 +11,21 @@ Here's a couple small tips. For further information refer to Allwinner H3/H5 dat
 |3V3_IN|Power supply for eMMC, DDR, Wi-Fi, PLL, USB, HDMI, EPHU, AUDIO|
 |VDD_RTC_IN|Power supply for RTC, PORT_L, security system|
 
-!!! Warning
-    Be careful higher core frequency needs higher voltage on CORE_POWER_IN
-
 ## Supply voltage 
 
 In order for Neutis to power up you need to supply voltage to these domains.
 CORE_POWER_IN domain voltage depends on the processor frequency. The higher the voltage,
 the higher power consumption is. For exact numbers refer to p.685 in Allwinner H5 datasheet.
 
-|Domain|Voltage|
-|:-:|:-:|
-|VDD_IO|3.3V|  
-|CORE_POWER_IN|1.1-1.3V|
+|Domain|Min|Typ|Max|
+|:-:|:-:|:-:|:-:|
+|CORE_POWER_IN|1,1V||1,4V|
+|VDD_IO|3,0V|3,3V|3,6V|
+|3V3_IN|3,24V|3,3V|3,36V|
+|VDD_RTC_IN|3,0V||3,3V|
+
+!!! Warning
+    Be careful higher core frequency needs higher voltage on CORE_POWER_IN
 
 ## Absolute maximum ratings
 
