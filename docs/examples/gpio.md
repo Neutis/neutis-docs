@@ -29,13 +29,13 @@ After that you'll see a new directory ```gpio10``` in ```/sys/class/gpio``` cont
 
 ```echo 1 > /sys/class/gpio/gpio10/value```
 
-<div style="text-align: center;"><img src="../../img/examples/gpio_led_on.jpg" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/examples/gpio_led_on.png" style="width: 500px;"></div><br>
 
 4) To turn off the led you need to write 0:
 
 ```echo 0 > /sys/class/gpio/gpio10/value```
 
-<div style="text-align: center;"><img src="../../img/examples/gpio_led_off.jpg" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/examples/gpio_led_off.png" style="width: 500px;"></div><br>
 
 When you are done, remove GPIO pin by just unexporting it:
 
