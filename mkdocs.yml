@@ -64,6 +64,7 @@ pages:
     - 'SDIO': 'examples/sdio.md'
     - 'Camera': 'examples/camera.md'
     - 'HDMI': 'examples/hdmi.md'
+    - 'UART': 'examples/uart.md'
 - Yocto:
     - 'Why Yocto?': 'yocto/why.md'
     - 'Build your own Linux OS': 'yocto/tutorial.md'
