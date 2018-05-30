@@ -12,8 +12,7 @@ A few words in here
 
 ### Enter FEL (maybe not use the word)
 
-- Power up (photo) 
-- Hold UBOOT button while plugging USB cable into the computer (photo)
+![fel_1](../../img/intro/fel_1.gif)</a>
 
 ### GUI
 
