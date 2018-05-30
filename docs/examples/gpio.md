@@ -1,9 +1,9 @@
 #GPIO
 
-<div style="text-align: center;"><img src="../../img/examples/gpio_led_animation.gif" style="width: 500px;"></div><br>
 Emlid Neutis has 38 GPIO pins. To see them all check out the pinout.
-
 GPIO can be accessed through Linux’s sysfs interface. (```/sys/class/gpio directory```).
+
+<div style="text-align: center;"><img src="../../img/examples/gpio_led_on_off.gif" style="width: 500px;"></div><br>
 
 ##GPIO Sysfs Numbers
 
