@@ -5,7 +5,7 @@ USB cable.
 
 In order to do this, plug in a MicroUSB cable from USB OTG port to your computer.
 
-<div style="text-align: center;"><img src="../../img/connectivity/devboard_connected.jpg" style="width: 700px;"></div><br>
+<div style="text-align: center;"><img src="../../img/connectivity/neutis_usb_otg_connected.png" style="width: 700px;"></div><br>
 
 You will get a new Ethernet device whose IP address is ```192.168.2.15```.
 
