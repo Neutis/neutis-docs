@@ -86,6 +86,11 @@
 ### UART header (X1,X15), USB3 header (X18)
 <a href="../../img/pinout/X1_X15_X18.png" target="_blank"> ![scheme](../../img/pinout/X1_X15_X18.png)</a>
 
+|Physical|Allwinner|Alt2|Alt3|Alt4|Alt5|Alt6
+|:-:|:-:|:--:|:--:|:--:|:--:|:--:|
+|1|PA4|UART0_TX|-|-|-|PA_EINT4|
+|3|PA5|UART0_RX|PWM0|-|-|PA_EINT5|
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.0.2/tablesort.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.0.2/sorts/tablesort.number.min.js"></script>
