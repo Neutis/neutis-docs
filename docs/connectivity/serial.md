@@ -3,10 +3,9 @@
 Neutis devboard has a soldered out USB-Serial converted. So you won't need a separate device to see the output. 
 In order to enable it put a jumper on UART pins (`URX0` and `UTX0`).
 
-<div style="text-align: center;"><img src="../../img/connectivity/jumpers_on_uart_pins.jpg" style="width: 500px;"></div><br>
+![jumpers_on_uart_pins](../../img/connectivity/jumpers_on_uart_pins.png)
 
 To connect over serial and see Linux booting over the serial port you'll need to follow a couple of simple steps laid out below.
-
 
 ### Linux/MacOS
 
