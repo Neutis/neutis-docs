@@ -14,7 +14,7 @@ data to a TX pin and receiving on the RX pin of the UART2 port.
 
 First, short the UART2 pins PA0 and PA1 as shown in the picture:
 
-<div style="text-align: center;"><img src="../../img/examples/shorted_uart_pins.jpg" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/examples/shorted_uart_pins.png" style="width: 700px;"></div><br>
 
 Then enable it by applying UART2 Device Tree overlay.
 Open /boot/Env.txt and edit it so as it should look like this:
