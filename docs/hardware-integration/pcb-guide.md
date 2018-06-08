@@ -17,6 +17,7 @@ making a custom PCB for Neutis:
 Placement of connectors and standoffs shown in the picture bellow. Use
 this footprint in your project with Neutis.
 Also look at connectors and standoffs documentation before layout
-(https://www.hirose.com , https://www.we-online.com ).
+([https://www.hirose.com](https://www.hirose.com) ,
+[https://www.we-online.com](https://www.we-online.com)).
 
 <a href="../../img/hardware-integration/neutis_layout_guide.png" target="_blank"> ![scheme](../../img/hardware-integration/neutis_layout_guide.png)</a>
