@@ -1,22 +1,4 @@
-## Overview
-
-A couple of words why a what
-
 ## Layout guide
-
-### Connector
-
-There are two DF40C-80DP-0.4V(51) connectors on Neutis. You need two “receptacle” connectors and two standoffs with thread M2 to connect Neutis.
-
-|Height|Connectors part number|Standoff part number|
-|:--:|:--:|:--:|
-|1,5mm|DF40C-80DS-0.4V(51)|9774015243R|
-|2,0mm|DF40C(2.0)-80DS-0.4V(51)|9774020243R|
-|3,0mm|DF40HC(3.0)-80DS-0.4V(51)|9774035243R|
-|3,5mm|DF40HC(3.5)-80DS-0.4V(51)|9774030243R|
-|4,0mm|DF40HC(4.0)-80DS-0.4V(51)|9774040243R|
-
-### Layout
 
 Using multilayer board provides easy-to-use layout of Neutis interfaces
 and power lanes. Pay attention to following recommendations during
