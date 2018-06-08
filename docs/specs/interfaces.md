@@ -8,3 +8,7 @@ Interfaces  | []()  | []()
 1x SDIO |2x Mic-in|
 
 Some interfaces are multiplexed
+
+## Devboard interfaces
+
+<a href="../../img/specs/devboard_interfaces.png" target="_blank"> ![scheme](../../img/specs/devboard_interfaces.png)</a>
