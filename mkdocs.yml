@@ -53,7 +53,6 @@ pages:
     - 'How to integrate Neutis?': 'hardware-integration/preface.md'
     - 'Power domains': 'hardware-integration/power.md'
     - 'Power on sequence': 'hardware-integration/power_on_sequence.md'
-    - 'Connector': 'hardware-integration/connector.md'
     - 'Schematics': 'hardware-integration/schematics.md'
     - 'PCB Design Guide': 'hardware-integration/pcb-guide.md'
 - Examples:
