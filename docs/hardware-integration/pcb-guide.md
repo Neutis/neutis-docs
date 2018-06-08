@@ -24,6 +24,21 @@ Also look at connectors and standoffs documentation before layout
 
 ## Connector
 
+<style>
+    .text-wrap-right {
+        float: right;
+        margin: 10px;
+        width: 240px;
+        height: auto;
+    }
+</style>
+
+
+<div markdown=1>
+
+![scheme](../../img/hardware-integration/connector.jpg){ : .text-wrap-right}
+
+</div>
 There are two DF40C-80DP-0.4V(51) connectors on Neutis. You need two
 “receptacle” connectors and two standoffs with thread M2 to connect
 Neutis.
