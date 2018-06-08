@@ -4,10 +4,10 @@ In this example you'll know how to control Neutis' SPI interface.
 We're going to use SPI0, but you can practice with SPI1 as well.
 Just make sure that overlay for SPI1 is enabled in your ```/boot/Env.txt``` and you're using the right pins.
 
-Connect 4 required wires (CS0, CLK0, MISO0, MOSI0) to your device
+Connect 5 required wires (GND, CS0, CLK0, MISO0, MOSI0) to your device
 as shown in the picture below.
 
-<div style="text-align: center;"><img src="../../img/examples/spi-connection.png" style="width: 700px;"></div><br>
+<div style="text-align: center;"><img src="../../img/examples/spi_connection.png" style="width: 700px;"></div><br>
 
 Copy the following Python program to talk to an SPI device and
 save it on Neutis as spi.py for example.
