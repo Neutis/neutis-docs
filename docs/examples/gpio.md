@@ -10,6 +10,14 @@ GPIO can be accessed through Linux’s sysfs interface. (```/sys/class/gpio dire
 To obtain the correct number of the desired pin you have to calculate it from the pin name:
 ```(position of letter in alphabet - 1) * 32 + pin number```
 
+Also you can use this formula in Python interpreter:
+
+```python
+
+(ord(pin_letter) - ord("A")) * 32 + pin_number
+
+```
+
 In this example we will be controlling user led which is connected to the pin **PA10**.
 According to the formula above, the correct pin number is ```(1 - 1) * 32 + 10 = 10```.
 
