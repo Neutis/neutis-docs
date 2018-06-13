@@ -51,7 +51,7 @@ pages:
     - 'Yocto': 'software-integration/yocto.md'
 - Hardware Integration:
     - 'How to integrate Neutis?': 'hardware-integration/preface.md'
-    - 'Power domains': 'hardware-integration/power.md'
+    - 'Electrical characteristics': 'hardware-integration/power.md'
     - 'Power on sequence': 'hardware-integration/power_on_sequence.md'
     - 'Schematics': 'hardware-integration/schematics.md'
     - 'PCB Design Guide': 'hardware-integration/pcb-guide.md'
