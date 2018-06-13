@@ -1,6 +1,6 @@
 ## USB-Serial connection
 
-Neutis devboard has a soldered out USB-Serial converted. So you won't need a separate device to see the output.
+Neutis devboard has a soldered out USB-Serial converter. So you won't need a separate device to see the output.
 In order to enable it put a jumper on UART pins (`URX0` and `UTX0`).
 
 ![jumpers_on_uart_pins](../../img/connectivity/jumpers_on_uart_pins.png)
