@@ -13,7 +13,7 @@ Key features:
 <td style="text-align: center;" >
   <img
     width="100"
-    src="../../img/quadcore.svg"
+    src="img/quadcore.svg"
     style="max-width: none;"
     align="middle"
   >
@@ -22,7 +22,7 @@ Key features:
 <td style="text-align: center;">
   <img
     width="100"
-    src="../../img/ram.svg"
+    src="img/ram.svg"
     style="max-width: none;"
   >
 </td>
@@ -30,7 +30,7 @@ Key features:
 <td style="text-align: center;">
   <img
     width="100"
-    src="../../img/dimensions.svg"
+    src="img/dimensions.svg"
     style="max-width: none;"
   >
 </td>
@@ -38,7 +38,7 @@ Key features:
 <td style="text-align: center;">
   <img
     width="100"
-    src="../../img/temp.svg"
+    src="img/temp.svg"
     style="max-width: none;"
   >
 </td>
@@ -157,7 +157,7 @@ to conveniently manage your product batch using the manufacturing tool.
 Neutis can be obtained in China without any import duty, unlike other SoMs that may cost you 20% more on import. And for sure we ship worldwide.
 ### Package contents
 
-![scheme](../../img/package_contents.png)</a>
+![scheme](img/package_contents.png)</a>
 
 ### Getting started
 
