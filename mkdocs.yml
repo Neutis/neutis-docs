@@ -34,7 +34,7 @@ pages:
 - First setup: 'intro/flash.md'
 - Connectivity: 
     - 'How to connect to Neutis?': 'connectivity/connectivity.md'
-    - 'Serial': 'connectivity/serial.md'
+    - 'USB-Serial': 'connectivity/usb-serial.md'
     - 'USB-Ethernet': 'connectivity/usb-ethernet.md'
     - 'Wi-Fi': 'connectivity/wifi.md'
     - 'Ethernet': 'connectivity/ethernet.md'
