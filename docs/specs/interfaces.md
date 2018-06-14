@@ -9,4 +9,5 @@ Interfaces  | []()  | []()
 3x I2C |1x Line-in|
 1x SDIO |2x Mic-in|
 
-Some interfaces are multiplexed
+!!! tip
+    Some interfaces are multiplexed
