@@ -1,11 +1,18 @@
 # First setup
 
-A few words in here
+In order to make use of your Neutis you'll need to flash it with a Linux image. 
+You can download the [latest]() dev image. To learn more about this image
+and Yocto project do not hesitate and click [here](../yocto/why.md). 
+
+In this quick tutorial we'll guide you through and help you set up your
+Neutis and make first connection over USB.
 
 ## Flashing
 
-In order to flash your Neutis you'll need to bot it in a special mode.
-You can read a bit about it [here](fel.md).
+In order to flash your Neutis you'll need to boot it in a special mode.
+You can read a bit about it [here](fel.md). You can just stick with the tutorial
+for now. But we recommend you to read it thoroughly so that you could understand
+how does your Neutis boot.
 
 ### Enter FEL
 
