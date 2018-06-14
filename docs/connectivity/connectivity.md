@@ -4,7 +4,7 @@ You can connect to your Neutis in several ways. Each of them
 has its own advantages and additional requirements. Check
 the list below to find out which one better fits your needs.
 
-- [Serial](serial.md):
+- [Serial](usb-serial.md):
 
     Although you need additional jumpers and USB to TTL converter to
     connect to your device, this is the perfect choice for debugging

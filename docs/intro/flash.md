@@ -28,6 +28,6 @@ A few words in here
 
 - Reset the Neutis devboard (photo)
 - Here it goes! (screenshot of screen with Linux booting)
-- To see the actual output by yourself you'll need to [connect over serial](../connectivity/serial.md)
+- To see the actual output by yourself you'll need to [connect over serial](../connectivity/usb-serial.md)
 
 There're other ways to connect to your Neutis. Explore other connectivity options [here](../connectivity/connectivity.md)!
