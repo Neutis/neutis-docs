@@ -47,7 +47,6 @@ pages:
     - 'Neutis Devboard': 'pinout/devboard.md'
 - Software Integration:
     - 'Choosing the OS': 'software-integration/os.md'
-    - 'Armbian': 'software-integration/armbian.md'
     - 'Yocto': 'software-integration/yocto.md'
 - Hardware Integration:
     - 'How to integrate Neutis?': 'hardware-integration/preface.md'

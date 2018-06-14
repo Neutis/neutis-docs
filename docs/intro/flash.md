@@ -2,12 +2,6 @@
 
 A few words in here
 
-## Choose the distro
-
-### Armbian
-
-### Yocto
-
 ## Flashing
 
 ### Enter FEL (maybe not use the word)
