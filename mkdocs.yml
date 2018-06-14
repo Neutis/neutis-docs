@@ -31,7 +31,9 @@ markdown_extensions:
 
 pages:
 - Introduction : 'index.md'
-- First setup: 'intro/flash.md'
+- First setup:
+  - 'Flash': 'intro/flash.md'
+  - 'FEL': 'intro/fel.md'
 - Connectivity: 
     - 'How to connect to Neutis?': 'connectivity/connectivity.md'
     - 'USB-Serial': 'connectivity/usb-serial.md'

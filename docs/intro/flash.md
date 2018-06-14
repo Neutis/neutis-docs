@@ -4,7 +4,10 @@ A few words in here
 
 ## Flashing
 
-### Enter FEL (maybe not use the word)
+In order to flash your Neutis you'll need to bot it in a special mode.
+You can read a bit about it [here](fel.md).
+
+### Enter FEL
 
 ![fel_1](../../img/intro/fel_1.gif)</a>
 
