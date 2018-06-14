@@ -56,6 +56,7 @@ pages:
     - 'Power on sequence': 'hardware-integration/power_on_sequence.md'
     - 'Schematics': 'hardware-integration/schematics.md'
     - 'PCB Design Guide': 'hardware-integration/pcb-guide.md'
+    - 'Allwinner H5': 'hardware-integration/allwinner.md'
 - Examples:
     - 'GPIO': 'examples/gpio.md'
     - 'PWM': 'examples/pwm.md'
