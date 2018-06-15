@@ -51,7 +51,7 @@ pages:
     - 'Choosing the OS': 'software-integration/os.md'
     - 'Yocto': 'software-integration/yocto.md'
 - Hardware Integration:
-    - 'How to integrate Neutis?': 'hardware-integration/preface.md'
+    - 'Overview': 'hardware-integration/preface.md'
     - 'Electrical characteristics': 'hardware-integration/power.md'
     - 'Power on sequence': 'hardware-integration/power_on_sequence.md'
     - 'Schematics': 'hardware-integration/schematics.md'
