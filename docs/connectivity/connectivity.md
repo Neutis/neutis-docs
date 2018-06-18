@@ -11,6 +11,10 @@ the list below to find out which one better fits your needs.
     which allows you to see the kernel log on startup and doesn't
     depend on sshd service.
 
+- [Serial with CP](serial-cp.md):
+
+    Connect to your Neutis with CP2102.
+
 - [USB-Ethernet](usb-ethernet.md):
 
     Grab one Micro-USB cable and you're good to go.

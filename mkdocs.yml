@@ -37,6 +37,7 @@ pages:
 - Connectivity: 
     - 'How to connect to Neutis?': 'connectivity/connectivity.md'
     - 'USB-Serial': 'connectivity/usb-serial.md'
+    - 'Serial with CP': 'connectivity/serial-cp.md'
     - 'USB-Ethernet': 'connectivity/usb-ethernet.md'
     - 'Wi-Fi': 'connectivity/wifi.md'
     - 'Ethernet': 'connectivity/ethernet.md'
