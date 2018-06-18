@@ -59,6 +59,7 @@ pages:
     - 'Allwinner H5': 'hardware-integration/allwinner.md'
 - Examples:
     - 'GPIO': 'examples/gpio.md'
+    - 'External Interrupt': 'examples/external-interrupt.md'
     - 'PWM': 'examples/pwm.md'
     - 'Audio': 'examples/audio.md'
     - 'I2C': 'examples/i2c.md'
