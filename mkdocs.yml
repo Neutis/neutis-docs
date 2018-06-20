@@ -54,6 +54,7 @@ pages:
 - Software Integration:
     - 'Choosing the OS': 'software-integration/os.md'
     - 'Yocto': 'software-integration/yocto.md'
+    - 'Device Tree': 'software-integration/device-tree.md'
 - Hardware Integration:
     - 'Overview': 'hardware-integration/preface.md'
     - 'Electrical characteristics': 'hardware-integration/power.md'
