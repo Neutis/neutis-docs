@@ -1,0 +1,15 @@
+.md-header {
+  background-color: #1b1b1b !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 1219px) {
+  .md-nav__title {
+    background-color: #3e3e3e !important;
+  } 
+}
+
+.md-nav__source {
+  background-color: #1b1b1b !important;
+}
+
