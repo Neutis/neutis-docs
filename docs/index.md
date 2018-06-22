@@ -1,13 +1,13 @@
 <div style="text-align: center;"><img src="img/neutis.png" style="width: 700px;"></div><br>
 
-### Neutis
+## Neutis
 
 Tiny quad-core system on module for makers and hardware startups.
 
-Key features:
+### Key features:
 
-<table style="border: 0; color: white;">
-<tbody style="background-color: #1e272e;">
+<table style="border: 0;">
+<tbody style="background-color: #fff;">
 <tr>
 
 <td style="text-align: center;" >

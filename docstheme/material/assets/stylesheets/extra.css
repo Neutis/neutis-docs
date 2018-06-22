@@ -13,3 +13,10 @@
   background-color: #1b1b1b !important;
 }
 
+.md-typeset table:not([class]) td {
+  border-top: 0 !important;
+}
+
+.md-typeset table:not([class]) {
+    box-shadow: none !important;
+}
