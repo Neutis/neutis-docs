@@ -210,7 +210,11 @@ We’ve made sure that you’re covered with everything you need for hassle-free
 
 ### Getting started
 
-First step to begin working with Neutis is to [flash with a Linux image and boot](intro/flash.md)
+- First step to begin working with Neutis is to [flash with a Linux image and boot](intro/flash.md).
+- Next step is to [connect](connectivity/connectivity.md) to your Neutis.
+- Check out our [examples](examples/gpio.md) and explore how it's easy to work with Neutis.
+- [Pinout](pinout/neutis.md) and [specifications](specs/features.md) are the first place to visit to start building your product.
+- Learn [what Yocto is](yocto/why.md) and how to [build](yocto/tutorial.md) with it your own image.
 
 ### Collaboration
 
