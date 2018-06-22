@@ -139,22 +139,71 @@ For more complete description please proceed [here](specs/features.md).
 
 We’ve made sure that you’re covered with everything you need for hassle-free manufacturing.
 
-## Parallel flashing
+<table style="border: 0;">
+<tbody style="background-color: #fff;">
 
-Manufacturing software tool can flash multiple units in parallel saving you time and reducing labor hours.
+<tr>
 
-## Certification
+    <td style="text-align: center;" >
+    <img
+        width="100"
+        src="img/advantages-neutis/certification.svg"
+        style="max-width: none;"
+        align="middle"
+    >
+    </td>
 
-Neutis modules have FCC and CE certification streamlining the certification of your final product.
+    <td>
+        <div style="text-align: left; font-size: 1.5em;"><b>Certification</b></div>
+        <div style="text-align: left;">Neutis modules have FCC and CE certification streamlining the certification of your final product.</div>
+    </td>
 
-## Serial numbers
+    <td style="text-align: center;">
+    <img
+        width="100"
+        src="img/advantages-neutis/flashing.svg"
+        style="max-width: none;"
+    >
+    </td>
 
-Each module has a unique ID which allows you
-to conveniently manage your product batch using the manufacturing tool.
+    <td>
+        <div style="text-align: left; font-size: 1.5em;"><b>Parallel flashing</b></div>
+        <div style="text-align: left;">Manufacturing software tool can flash multiple units in parallel saving you time and reducing labor hours.</div>
+    </td>
 
-## No import duty for China
+</tr>
 
-Neutis can be obtained in China without any import duty, unlike other SoMs that may cost you 20% more on import. And for sure we ship worldwide.
+<tr>
+
+    <td style="text-align: center;">
+    <img
+        width="100"
+        src="img/advantages-neutis/serial-number.svg"
+        style="max-width: none;"
+    >
+    </td>
+
+    <td>
+        <div style="text-align: left; font-size: 1.5em;"><b>Serial numbers</b></div>
+        <div style="text-align: left;">Each module has a unique ID which allows you to conveniently manage your product batch using the manufacturing tool.</div>
+    </td>
+
+    <td style="text-align: center;">
+    <img
+        width="100"
+        src="img/advantages-neutis/china-no-duty.svg"
+        style="max-width: none;"
+    >
+    </td>
+
+    <td>
+        <div style="text-align: left; font-size: 1.5em;"><b>No import duty for China</b></div>
+        <div style="text-align: left;">Neutis can be obtained in China without any import duty, unlike other SoMs that may cost you 20% more on import. And for sure we ship worldwide.</div>
+    </td>
+</tr>
+</tbody>
+</table>
+
 ### Package contents
 
 ![scheme](img/package_contents.png)</a>
