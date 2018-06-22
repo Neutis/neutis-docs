@@ -6,11 +6,11 @@ Tiny quad-core system on module for makers and hardware startups.
 
 ### Key features:
 
-<table style="border: 0;">
+<table id="index_features" style="border: 0;">
 <tbody style="background-color: #fff;">
 <tr>
 
-<td style="text-align: center;" >
+<td style="text-align: center;">
   <img
     width="100"
     src="img/quadcore.svg"
@@ -139,7 +139,7 @@ For more complete description please proceed [here](specs/features.md).
 
 We’ve made sure that you’re covered with everything you need for hassle-free manufacturing.
 
-<table style="border: 0;">
+<table id="index_manufacturing" style="border: 0;">
 <tbody style="background-color: #fff;">
 
 <tr>

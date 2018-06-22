@@ -13,10 +13,10 @@
   background-color: #1b1b1b !important;
 }
 
-.md-typeset table:not([class]) td {
+table[id^="index_"] td {
   border-top: 0 !important;
 }
 
-.md-typeset table:not([class]) {
+table[id^="index_"] {
     box-shadow: none !important;
 }
