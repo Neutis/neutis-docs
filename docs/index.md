@@ -135,7 +135,7 @@ Tiny quad-core system on module for makers and hardware startups.
 
 For more complete description please proceed [here](specs/features.md).
 
-# Manufacturing
+### Manufacturing
 
 We’ve made sure that you’re covered with everything you need for hassle-free manufacturing.
 
