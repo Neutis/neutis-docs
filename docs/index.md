@@ -4,7 +4,7 @@
 
 Tiny quad-core system on module for makers and hardware startups.
 
-### Key features:
+### Key features
 
 <table id="index_features" style="border: 0;">
 <tbody style="background-color: #fff;">
