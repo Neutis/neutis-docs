@@ -9,7 +9,7 @@ Neutis and make first connection over USB.
 
 ## Flashing
 
-In order to flash your Neutis you'll need to boot it in a special mode.
+In order to flash your Neutis you'll need to boot it in a special mode called FEL.
 You can read a bit about it [here](fel.md). You can just stick with the tutorial
 for now. But we recommend you to read it thoroughly so that you could understand
 how does your Neutis boot.
