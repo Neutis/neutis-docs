@@ -18,6 +18,10 @@ how does your Neutis boot.
 
 ![fel_1](../../img/intro/fel_1.gif)</a>
 
+Alternatively, you can enter FEL this way:
+
+![fel_2](../../img/intro/fel_2.gif)</a>
+
 ### GUI
 
 [Download Neutis Flasher]()
