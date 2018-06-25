@@ -1,8 +1,8 @@
 # First setup
 
-In order to make use of your Neutis you'll need to flash it with a Linux image. 
+In order to make use of your Neutis you'll need to flash it with a Linux image.
 You can download the [latest]() dev image. To learn more about this image
-and Yocto project do not hesitate and click [here](../yocto/why.md). 
+and Yocto project do not hesitate and click [here](../yocto/why.md).
 
 In this quick tutorial we'll guide you through and help you set up your
 Neutis and make first connection over USB.

@@ -10,6 +10,7 @@ To connect over serial and see Linux booting over the serial port you'll need to
 ### Linux/MacOS
 
 #### Find the name of USB device
+
 With the USB-Serial adapter plugged in, you can get a list of all avilable devices:
 
 On Linux:

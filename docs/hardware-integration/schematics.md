@@ -2,7 +2,6 @@
 
 In order to build a product that has a Neutis N5 in its core you'll need some guidance. So here you can find full schematics of our Neutis Devboard.
 
-
 !!! tip
     Click on the image to download Neutis Devboard [schematics](https://files.emlid.com/neutis/Neutis_N5_Devboard_schematics.pdf).
 

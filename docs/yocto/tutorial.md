@@ -34,6 +34,7 @@ You will be in build directory. After what you can start building image with:
 ``` bash
 bitbake neutis-image
 ```
+
 Or
 
 ``` bash
