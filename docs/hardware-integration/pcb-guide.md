@@ -45,10 +45,18 @@ There are two DF40C-80DP-0.4V(51) connectors on Neutis. You need two
 “receptacle” connectors and two standoffs with thread M2 to connect
 Neutis.
 
-|Height|Connectors part number|Standoff part number|
-|:--:|:--:|:--:|
-|1,5mm|DF40C-80DS-0.4V(51)|9774015243R|
-|2,0mm|DF40C(2.0)-80DS-0.4V(51)|9774020243R|
-|3,0mm|DF40HC(3.0)-80DS-0.4V(51)|9774030243R|
-|3,5mm|DF40HC(3.5)-80DS-0.4V(51)|9774035243R|
-|4,0mm|DF40HC(4.0)-80DS-0.4V(51)|9774040243R|
+|Height|Connectors part number|Mouser|Digi-key|
+|:--:|:--:|:--:|:--:|
+|1,5mm|DF40C-80DS-0.4V(51)|[798-DF40C80DS0.4V51](https://www2.mouser.com/ProductDetail/Hirose-Connector/DF40C-80DS-04V51?qs=%2fha2pyFaduhv64RcFFAGHWIzN499%2fnm2DhcEHRrmIUwp55wM46cSrX51NUeDpYG%252b)|[H11633CT-ND](https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DF40C-80DS-0.4V-51/H11633CT-ND/1969512)|
+|2,0mm|DF40C(2.0)-80DS-0.4V(51)|[798-DF40C2080DS04V51](https://www2.mouser.com/ProductDetail/Hirose-Connector/DF40C20-80DS-04V51?qs=%2fha2pyFaduj1JFKQDdmB0F69bxAgsXv%252bYgcm3FbBLBSMwQKFlNW%2fjgx%252b%252bqKnbGWA)|[H11773CT-ND](https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DF40C-2.0-80DS-0.4V-51/H11773CT-ND/2178736)|
+|3,0mm|DF40HC(3.0)-80DS-0.4V(51)|[798-DF40HC3080D04V51](https://www2.mouser.com/ProductDetail/Hirose-Connector/DF40HC30-80DS-04V51?qs=%2fha2pyFadujW%252bY6IJZsm3g9deC0gPI2JgncLajk8axr0C6AIIB%252bu%2fiilZOtci6qV6C2wJ7zRdps%3d)|[DF40HC(3.0)-80DS-0.4V(51)-ND](https://www.digikey.com/products/en?keywords=DF40HC(3.0)-80DS-0.4V(51))|
+|3,5mm|DF40HC(3.5)-80DS-0.4V(51)|[798-DF40HC3580DS4V51](https://www2.mouser.com/ProductDetail/Hirose-Connector/DF40HC35-80DS-04V51?qs=%2fha2pyFadujW%252bY6IJZsm3i%252bZk1u9G3%2fdzyTp9hsWDAQx4UikYGEUzoQ%2fojMx6wax)|[H11997CT-ND](https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DF40HC-3.5-80DS-0.4V-51/H11997CT-ND/2880228)|
+|4,0mm|DF40HC(4.0)-80DS-0.4V(51)|[798-DF4HC4080DS04V51](https://www2.mouser.com/ProductDetail/Hirose-Connector/DF40HC40-80DS-04V51?qs=%2fha2pyFaduh0I2iqxz%2f1Eod7dScl%252boK%252biBIkziJyTqNNDAFZipWEwOFKO4IwAvcJ)|[H11919CT-ND](https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DF40HC-4.0-80DS-0.4V-51/H11919CT-ND/2530301)|
+
+|Height|Standoff part number|Mouser|Digi-key|
+|:--:|:--:|:--:|:--:|
+|1,5mm|9774015243R|[710-9774015243R](https://www2.mouser.com/ProductDetail/Wurth-Electronics/9774015243R?qs=%2fha2pyFaduig2o1TjGBILlelL4N6HPO1RsaAytPpqNqOpuBTrw0QPw%3d%3d)|[732-7069-1-ND](https://www.digikey.com/product-detail/en/wurth-electronics-inc/9774015243R/732-7069-1-ND/5320674)|
+|2,0mm|9774020243R|[710-9774020243R](https://www2.mouser.com/ProductDetail/Wurth-Electronics/9774020243R?qs=%2fha2pyFadui3GWH7lsbxf%2f8M2uVTvUujDrONkIzj2c2i0Ix4Pn1Iaw%3d%3d)|[732-7073-1-ND](https://www.digikey.com/product-detail/en/wurth-electronics-inc/9774020243R/732-7073-1-ND/5320678)|
+|3,0mm|9774030243R|[710-9774035243R](https://www2.mouser.com/ProductDetail/Wurth-Electronics/9774035243R?qs=%2fha2pyFadugOi%2fSrweRFmXYCzroXJlxP23LCR%252bdmfLFYmGMUPKBMuw%3d%3d)|[732-7088-1-ND](https://www.digikey.com/product-detail/en/wurth-electronics-inc/9774035243R/732-7088-1-ND/5320693)|
+|3,5mm|9774035243R|[710-9774030243R](https://www2.mouser.com/ProductDetail/Wurth-Electronics/9774030243R?qs=%2fha2pyFaduhIDcSap8yw57hZi4NBlfG2XmYJvdtG1n4fVPha%2fFcEPQ%3d%3d)|[732-7085-1-ND](https://www.digikey.com/product-detail/en/wurth-electronics-inc/9774030243R/732-7085-1-ND/5320690)|
+|4,0mm|9774040243R|[710-9774040243R](https://www2.mouser.com/ProductDetail/Wurth-Electronics/9774040243R?qs=%2fha2pyFaduinjgKCwktpqqqGR%252bhwYxvvTdY0nSZ28qdtUX3WyiijSw%3d%3d)|[732-7090-1-ND](https://www.digikey.com/product-detail/en/wurth-electronics-inc/9774040243R/732-7090-1-ND/5320695)|
