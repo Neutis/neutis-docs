@@ -4,7 +4,7 @@ The [Yocto Project](https://wiki.yoctoproject.org/wiki/Main_Page) is an open-sou
 
 ## Setting up build host
 
-First of all you need to setup your machine. If your OS differs from Linux you can prepare your build host to use [CROPS](https://git.yoctoproject.org/cgit/cgit.cgi/crops/about/), which leverages [Docker Containers](https://www.docker.com/).
+First of all you need to setup your machine. If your OS differs from Linux, you can prepare your build host to use [CROPS](https://git.yoctoproject.org/cgit/cgit.cgi/crops/about/), which leverages [Docker Containers](https://www.docker.com/).
 
 For Native Linux Machine you will need:
 
@@ -29,7 +29,7 @@ Next initialize your environment:
 source init.sh
 ```
 
-You will be in build directory. After what you can start building image with:
+You will be in the build directory. After that you can start building image with:
 
 ``` bash
 bitbake neutis-image
