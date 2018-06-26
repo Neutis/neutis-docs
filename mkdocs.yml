@@ -73,6 +73,7 @@ pages:
 - Yocto:
     - 'Why Yocto?': 'yocto/why.md'
     - 'Build your own Linux OS': 'yocto/tutorial.md'
+    - 'Device Tree': 'yocto/device-tree.md'
 - Neutis Flasher:
     - 'What is Neutis Flasher?': 'flasher/preface.md'
     - 'CLI': 'flasher/cli.md'
