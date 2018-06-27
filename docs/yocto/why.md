@@ -5,7 +5,7 @@ This is how Yocto Project describes itself:
 > create custom Linux-based systems for embedded products, regardless of the
 > hardware architecture.
 
-The whole project consist of set of tools which includes task execution engine -
+The whole project consists of set of tools which includes task execution engine -
 BitBake and OpenEmbedded-Core (OE-Core) - a common layer of metadata (i.e.
 recipes, classes, and associated files).
 
