@@ -7,4 +7,4 @@ need to attach URX0 pin to TXD, UTX0 to RXD and GND to GND like it is demonstrat
 ![CP2102](../../img/connectivity/cp2102_connection.png)
 
 The rest of the connection process including identifying a USB device
-and logging in you can be found in [USB-Serial section](https://docs.neutis.io/connectivity/usb-serial/).
+and logging can be found in [USB-Serial section](https://docs.neutis.io/connectivity/usb-serial/).
