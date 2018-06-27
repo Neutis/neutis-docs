@@ -1,7 +1,5 @@
 
-These documents provide information about Neutis electrical characteristics and guidance for Neutis integration to your project.
-
-Documents include:
+This section provides information about Neutis electrical specs and guides for developers. It includes:
 
 * [Electrical characteristics](power.md)
 

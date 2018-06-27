@@ -1,6 +1,6 @@
 ## UART example
 
-Emlid Neutis has 4 available UART ports:
+Neutis has 4 available UART ports:
 
 |Port|Device|TX Pin|RX Pin|
 |:-:|:-:|:--:|:--:|
@@ -9,10 +9,10 @@ Emlid Neutis has 4 available UART ports:
 |UART2|/dev/ttyS2|PA0|PA1
 |UART3|/dev/ttyS3|PA13|PA14
 
-In this example we are going to perform a loopback test by sending
+In this example, we are going to perform a loopback test by sending
 data to a TX pin and receiving on the RX pin of the UART2 port.
 
-First, short the UART2 pins PA0 and PA1 as shown in the picture:
+Firstly, short the UART2 pins PA0 and PA1 as shown in the picture:
 
 <div style="text-align: center;"><img src="../../img/examples/shorted_uart_pins.png" style="width: 700px;"></div><br>
 
@@ -28,9 +28,9 @@ overlays=uart2
 
 ```
 
-Reboot and login to your device. Now we need to change terminal
+Reboot and log in to your device. Now we need to change terminal
 line settings to disable echoing back every character typed,
-otherwise you will get endless data loop from ```/dev/ttyS2```:
+otherwise, you will get endless data loop from ```/dev/ttyS2```:
 
 ```bash
 
@@ -46,7 +46,7 @@ cat /dev/ttyS2
 
 ```
 
-Login to Neutis in another terminal and write something to ```/dev/ttyS2```:
+Log in to Neutis in another terminal and write something to ```/dev/ttyS2```:
 
 ```bash
 
@@ -54,4 +54,4 @@ echo "hello" > /dev/ttyS2
 
 ```
 
-In the first terminal you should get exactly what you typed.
+In the first terminal, you should get what you typed.

@@ -6,6 +6,6 @@
     Do not place any routing elements under this area.
     Use polygon cutout here or place Neutis close to your board edge.
 
-## Polygon cutout for antenna in Neutis Developer board
+## Polygon cutout for an antenna in Neutis Developer board
 
 <div style="text-align: ceter;"><img src="../../img/hardware-integration/polygon-cutout.png" style="width: 600px;"></div><br>

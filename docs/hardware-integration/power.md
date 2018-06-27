@@ -1,11 +1,10 @@
 ## Power domains description
 
-Neutis N5 has Allwinner H5 in its core. This processor has a few power domains you should take into account.
-Here's a couple small tips. For further information refer to Allwinner H3/H5 datasheet.
+Neutis N5 has Allwinner H5 in its core. This processor has several power domains that should be taken into account.
 
 |Domain|Description|
 |:-|:-|
-|CORE_POWER_IN|Power supply  for ARM core|
+|CORE_POWER_IN|Power supply for ARM core|
 |VDD_CPUFB|Pin for monitoring actual core voltage|
 |VDD_IO|Power supply GPIOs and digital interfaces I/O buffers|
 |3V3_IN|Power supply for eMMC, DDR, Wi-Fi, PLL, USB, HDMI, EPHU, AUDIO|
@@ -13,9 +12,12 @@ Here's a couple small tips. For further information refer to Allwinner H3/H5 dat
 
 ## Supply voltage 
 
-In order for Neutis to power up you need to supply voltage to these domains.
+For Neutis to power up, we need to supply voltage to these domains.
 CORE_POWER_IN domain voltage depends on the processor frequency. The higher the voltage,
-the higher power consumption is. For exact numbers refer to p.685 in Allwinner H5 datasheet.
+the higher power consumption is.
+
+!!! note
+     Refer to p.685 of [Allwinner H5 datasheet](allwinner) for more information.
 
 |Domain|Min|Typ|Max|
 |:-:|:-:|:-:|:-:|
@@ -25,10 +27,9 @@ the higher power consumption is. For exact numbers refer to p.685 in Allwinner H
 |VDD_RTC_IN|3,0V||3,3V|
 
 !!! Warning
-    Be careful higher core frequency needs higher voltage on CORE_POWER_IN
+    A higher core frequency requires a higher voltage on CORE_POWER_IN
 
 ## Absolute maximum ratings
-
 
 |Value|Mix|Max|
 |:-:|:-:|:-:|

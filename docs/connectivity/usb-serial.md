@@ -1,17 +1,16 @@
-## USB-Serial connection
 
-Neutis devboard has a soldered out USB-Serial converter. So you won't need a separate device to see the output.
-In order to enable it put a jumper on UART pins (`URX0` and `UTX0`).
+
+Neutis devboard has a USB-Serial converter. To enable it set a jumper on UART pins (`URX0` and `UTX0`).
 
 ![jumpers_on_uart_pins](../../img/connectivity/jumpers_on_uart_pins.png)
 
-To connect over serial and see Linux booting over the serial port you'll need to follow a couple of simple steps laid out below.
+To connect over serial and see Linux booting over the serial port you need to follow a couple of simple steps.
 
 ### Linux/MacOS
 
 #### Find the name of USB device
 
-With the USB-Serial adapter plugged in, you can get a list of all avilable devices:
+With a USB-Serial adapter plugged in, you can get a list of all available devices:
 
 On Linux:
 
@@ -47,7 +46,7 @@ Example output:
 
 ```
 
-Look for something like `SLAB_USBtoUART` on MacOS or `ttyUSB` on Linux.
+Look for  `SLAB_USBtoUART` on MacOS or `ttyUSB` on Linux.
 
 Connect:
 
@@ -66,9 +65,9 @@ At the login prompt, type ```root``` and press Enter.
 ### Windows
 
 - Download and install PuTTy terminal emulator.
-- in Device Manager find out your COM port.
+- in Device Manager find your COM port.
 
-<div style="text-align: center;"><img src="../../img/connectivity/device_manager_windows.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/connectivity/device_manager_windows.png" style="width: 600px;"></div><br>
 
 In this example it is ```COM1```.
 
@@ -80,7 +79,7 @@ In this example it is ```COM1```.
 
 Click open:
 
-<div style="text-align: center;"><img src="../../img/connectivity/login_putty.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/connectivity/login_putty.png" style="width: 600px;"></div><br>
 
 #### Login
 

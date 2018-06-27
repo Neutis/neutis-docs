@@ -1,24 +1,35 @@
-# First setup
 
-In order to make use of your Neutis you'll need to flash it with a Linux image.
-You can download the [latest]() dev image. To learn more about this image
-and Yocto project do not hesitate and click [here](../yocto/why.md).
+To start working with Neutis, flash it with a Linux image.
+You can download the latest dev image below:
 
-In this quick tutorial we'll guide you through and help you set up your
-Neutis and make first connection over USB.
+| Dev image | 
+|------------|
+| [Download](https://files.emlid.com/)   | 
+| [md5](https://files.emlid.com/)        | 
+
+
+!!! tip "Yocto"
+    Learn more about Yocto in [the corresponding section](../yocto/why.md).
+
+
 
 ## Flashing
 
-In order to flash your Neutis you'll need to boot it in a special mode called FEL.
-You can read a bit about it [here](fel.md). You can just stick with the tutorial
-for now. But we recommend you to read it thoroughly so that you could understand
-how does your Neutis boot.
+To flash Neutis you'll need to boot it in a FEL mode. 
 
-### Enter FEL
+!!! tip "FEL mode"
+    Learn more about FEL mode in [the corresponding section](fel.md).
+
+### Entering FEL
+
+* Supply power to Neutis devboard from your Mac or PC over the USB cable
+* Push the _UBOOT_ button and hold it
+* Push and release the _RESET_ button
+* Release the _UBOOT_ button
 
 ![fel_1](../../img/intro/fel_1.gif)</a>
 
-Alternatively, you can enter FEL this way:
+Alternatively, you can enter FEL mode by holding the _UBOOT_ button and powering Neutis devboard via micro-USB cable. 
 
 ![fel_2](../../img/intro/fel_2.gif)</a>
 
@@ -29,13 +40,14 @@ Alternatively, you can enter FEL this way:
 - Screenshot with the waiting interface
 - Screenshot with the detected device
 - Screenshot with image selection
-- Screenshot with flashing process
+- Screenshot with the flashing process
 - Screenshot with "Done"
 
-## Boot your Neutis!
+## Booting
 
 - Reset the Neutis devboard (photo)
-- Here it goes! (screenshot of screen with Linux booting)
-- To see the actual output by yourself you'll need to [connect over serial](../connectivity/usb-serial.md)
+- The loading process is initiated (screenshot of screen with Linux booting)
+- [Connect over serial](../connectivity/usb-serial.md) to see the output
 
-There're other ways to connect to your Neutis. Explore other connectivity options [here](../connectivity/connectivity.md)!
+!!! tip "Connectivity"
+    There are other ways to connect to Neutis. Explore other connectivity options [in the corresponding section](../connectivity/connectivity.md).

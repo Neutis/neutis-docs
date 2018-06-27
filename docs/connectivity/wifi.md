@@ -1,15 +1,10 @@
-## Wi-Fi
 
-Connecting to your Neutis over Wi-Fi frees you from the hassle with wires,
-jumpers, USB cables. You also won't need to be close to your device all the
-time in contrast to in contrast to connecting over serial or usb-ethernet.
+### Configuring and activating a network
 
-### Configuring and activating network
-
-Neutis image comes with pre-installed NetworkManager, so you can use
+Neutis image comes with pre-installed NetworkManager so that you can use
 ```nmcli``` tool to manage your wifi connections.
 
-First, log into your Neutis to add the network.
+Firstly, log into your Neutis to add the network.
 
 You can list all available networks by typing:
 
@@ -19,7 +14,7 @@ nmcli device wifi list
 
 ```
 
-It will produce the similar output:
+It produces the output similar to this:
 
 ```bash
 
@@ -38,7 +33,7 @@ sudo nmcli device wifi connect "NETWORK_SSID" password "NETWORK_PASSWORD"
 
 ```
 
-If you need to connect to the open network, just leave the password parameter empty:
+If you need to connect to an open network, leave the password parameter empty:
 
 ```bash
 
@@ -47,9 +42,9 @@ sudo nmcli device wifi connect "NETWORK_SSID"
 ```
 
 The more detailed information about nmcli tool, its parameters and connecting to the hidden or
-802.1X networks is available on [this page](https://developer.gnome.org/NetworkManager/stable/nmcli.html).
+802.1X networks is available on [nmcli tool page](https://developer.gnome.org/NetworkManager/stable/nmcli.html).
 
-If you did everything right, you would be connected to the network and the following message would appear:
+After connecting to a network, the following message will appear:
 
 ```bash
 
@@ -59,9 +54,9 @@ Device 'wlan0' successfully activated with 'd6bd78ac-2ff9-42b5-96d1-d984fb4ee852
 
 
 
-###Connecting to the Neutis
+###Connecting to Neutis
 
-First, you need to find your ip address. This can be done by typing:
+Firstly, you need to find your IP address:
 
 ```bash
 
@@ -82,9 +77,9 @@ Find ```wlan0``` in the output:
 
 ```
 
-In this case the ip address is **192.168.1.122**.
+In this case, the IP address is **192.168.1.122**.
 
-Now you can connect to your Neutis via ssh:
+Now you can connect to Neutis via ssh:
 
 ```bash
 

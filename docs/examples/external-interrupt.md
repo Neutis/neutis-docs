@@ -1,10 +1,10 @@
-This example will show you how to handle PL10 interrupts in userspace.
-We will be reading value from PL10 pin and controlling PA10 (User LED).
-In the result the LED will be switched off by default and switched on when button is pressed.
+This example demonsrates how to handle PL10 interrupts in userspace.
+We read the value from PL10 pin and controlling PA10 (User LED).
+As a result, the LED is switched off by default and switched on when we press the button.
 
 <div style="text-align: center;"><img src="../../img/examples/push_ext_user_led.gif" style="width: 700px;"></div><br>
 
-Let's prepare PL10 and export it firstly. The number of PL10 pin is 362.
+Let's prepare PL10 and export it first. The number of PL10 pin is 362.
 If you don't know why it is so, please refer to [this](https://docs.neutis.io/examples/gpio/#gpio-sysfs-numbers) page.
 
 ```bash
@@ -30,13 +30,13 @@ cat /sys/class/gpio/gpio362/value
 
 ```
 
-This will return 1. Now you can press the `EXT_INT` button and
+It returns 1. Now you can press the `EXT_INT` button and
 run the previous command one more time and see that pin gets low.
 
 Once you learned how to change PL10 pin value, let's make use of it
-and write small bash script to control user LED.
+and write a small bash script to control user LED.
 
-Copy the contents of the following program, save it on your Neutis
+Copy the contents of the following program, save it on Neutis
 and make the file executable. Run it and notice what's happening when
 you press the button.
 

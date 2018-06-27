@@ -1,8 +1,8 @@
 #I²C
 
-Emlid Neutis has 3x I2C interfaces. In this example we will connect I2C device (a breakout board that includes MS5611 pressure sensor) and detect it
+Emlid Neutis has 3x I2C interfaces. In this example, we connect an I2C device (a breakout board that includes MS5611 pressure sensor) and detect it
 
-##Attaching board
+## Attaching board
 
 ![ms5611_neutis](../../img/examples/neutis_ms5611.png)</a>
 
@@ -36,5 +36,5 @@ i2cdetect -y 0
 70: -- -- -- -- -- -- -- 77
 ```
 
-MS5611 usually can be found at address of 0x77, but when the CSB pin (Chip Select which is used
+MS5611 usually can be found at the address of 0x77, but when the CSB pin (Chip Select which is used
 to enable/disable the interface) is pulled high, the address may change to 0x76.

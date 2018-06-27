@@ -1,6 +1,6 @@
 #GPIO
 
-Emlid Neutis has 60 GPIO pins. To see them all check out the pinout.
+Emlid Neutis has 60 GPIO pins. See [the pinout section](../pinout/neutis/) for more information.
 GPIO can be accessed through Linux’s sysfs interface. (```/sys/class/gpio directory```).
 
 <div style="text-align: center;"><img src="../../img/examples/gpio_led_on_off.gif" style="width: 500px;"></div><br>
@@ -10,7 +10,7 @@ GPIO can be accessed through Linux’s sysfs interface. (```/sys/class/gpio dire
 To obtain the correct number of the desired pin you have to calculate it from the pin name:
 ```(position of letter in alphabet - 1) * 32 + pin number```
 
-Also you can use this formula in Python interpreter:
+Also, you can use this formula in Python interpreter:
 
 ```python
 
@@ -18,7 +18,7 @@ Also you can use this formula in Python interpreter:
 
 ```
 
-In this example we will be controlling user led which is connected to the pin **PA10**.
+In this example, we are controlling user LED connected to the pin **PA10**.
 According to the formula above, the correct pin number is ```(1 - 1) * 32 + 10 = 10```.
 
 ##Let there be light
@@ -27,7 +27,7 @@ According to the formula above, the correct pin number is ```(1 - 1) * 32 + 10 =
 
 ```echo 10 > /sys/class/gpio/export```
 
-After that you'll see a new directory ```gpio10``` in ```/sys/class/gpio``` containing the files you need to control the pin.
+After that, you'll see a new directory ```gpio10``` in ```/sys/class/gpio``` containing the files you need to control the pin.
 
 2) Write "out" to /sys/class/gpio/gpio10/direction:
 
@@ -39,7 +39,7 @@ After that you'll see a new directory ```gpio10``` in ```/sys/class/gpio``` cont
 
 <div style="text-align: center;"><img src="../../img/examples/gpio_led_on.png" style="width: 500px;"></div><br>
 
-4) To turn off the led you need to write 0:
+4) To turn off the LED you need to write 0:
 
 ```echo 0 > /sys/class/gpio/gpio10/value```
 

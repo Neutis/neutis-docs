@@ -1,7 +1,7 @@
 ## PWM Example
 
-Emlid Neutis has two available PWM pins. In this example we will be using ```PWM0```,
-which is the alternative function of ```URX0``` pin and is disabled by default.
+Emlid Neutis has two available PWM pins. In this example, we are using ```PWM0```,
+which is the alternative function of ```URX0``` pin. By default, it is disabled.
 
 <div style="text-align: center;"><img src="../../img/examples/pwm_urx0_pin.jpg" style="width: 500px;"></div><br>
 
@@ -17,7 +17,7 @@ overlays=pwm
 
 ```
 
-Save this file and reboot your device. When your system has finished booting,
+Save this file and reboot your device. When your system finished booting,
 you should get ```pwmchip0``` interface in sysfs.
 
 ```bash

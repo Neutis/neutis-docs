@@ -1,13 +1,9 @@
-## USB-Ethernet SSH
 
-Neutis Dev Board has a USB OTG port which allows you to connect to your Neutis using
-USB cable.
-
-In order to do this, plug in a MicroUSB cable from USB OTG port to your computer.
+Neutis Dev Board has a USB OTG port which allows connecting your Mac or PC to Neutis using a USB cable.
 
 <div style="text-align: center;"><img src="../../img/connectivity/neutis_usb_otg_connected.png" style="width: 700px;"></div><br>
 
-You will get a new Ethernet device whose IP address is ```192.168.2.15```.
+You will see a new Ethernet device whose IP address is ```192.168.2.15```.
 
 ```bash
 
@@ -27,7 +23,7 @@ en7: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 
 ### Connect
 
-Now you can connect to your Neutis over ssh:
+Now you can connect to Neutis over ssh:
 
 ```bash
 

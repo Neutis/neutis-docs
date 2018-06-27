@@ -1,8 +1,7 @@
 <div style="text-align: center;"><img src="img/neutis.png" style="width: 700px;"></div><br>
 
-## Neutis
 
-Tiny quad-core system on module for makers and hardware startups.
+Neutis is a quad-core system on module for makers and hardware startups.
 
 ### Key features
 
@@ -111,7 +110,7 @@ Tiny quad-core system on module for makers and hardware startups.
 <td>
   <div style="text-align: center; font-size: 1.5em;"><b>Yocto and OTA</b></div>
   <div style="text-align: center;">
-    Neutis BSP is based on Yocto build system. It comes with up-do-date Linux kernel based on mainline version and OTA support
+    Neutis BSP is based on Yocto build system. It comes with up-to-date Linux kernel based on mainline version and OTA support
   </div>
 
 </td>
@@ -155,7 +154,7 @@ We’ve made sure that you’re covered with everything you need for hassle-free
 
     <td>
         <div style="text-align: left; font-size: 1.5em;"><b>Certification</b></div>
-        <div style="text-align: left;">Neutis modules have FCC and CE certification streamlining the certification of your final product.</div>
+        <div style="text-align: left;">FCC and CE certification for Neutis modules is pending.</div>
     </td>
 
     <td style="text-align: center;">
@@ -210,12 +209,12 @@ We’ve made sure that you’re covered with everything you need for hassle-free
 
 ### Getting started
 
-- First step to begin working with Neutis is to [flash with a Linux image and boot](intro/flash.md).
-- Next step is to [connect](connectivity/connectivity.md) to your Neutis.
-- Check out our [examples](examples/gpio.md) and explore how it's easy to work with Neutis.
-- [Pinout](pinout/neutis.md) and [specifications](specs/features.md) are the first place to visit to start building your product.
-- Learn [what Yocto is](yocto/why.md) and how to [build](yocto/tutorial.md) with it your own image.
+- [Flashing and booting Neutis](intro/flash.md) with a Linux image
+- [Connecting](connectivity/connectivity.md) to Neutis
+- [Examples](examples/gpio.md)
+- [Pinout](pinout/neutis.md) and [specifications](specs/features.md)
+- [Building](yocto/tutorial.md) an own image with [Yocto](yocto/why.md)
 
 ### Collaboration
 
-This document can be edited on [GitHub](https://github.com/emlid/neutis-docs) in Markdown. If you find any mistakes, typos or  pieces that are not documented well enough simply open an issue or contribute by sending a pull request.
+This document can be edited on [GitHub](https://github.com/emlid/neutis-docs) in Markdown. If you find any mistakes, typos or pieces that are not documented well enough simply open an issue or contribute by sending a pull request.

@@ -1,13 +1,12 @@
-# Devboard Pinout
+# Dev Board Pinout
 
-### Entire board
 <a href="../../img/pinout/dev_board_pinout.png" target="_blank"> ![scheme](../../img/pinout/dev_board_pinout.png)</a>
 
 ### Main header (X6)
 <a href="../../img/pinout/X6.png" target="_blank"> ![scheme](../../img/pinout/X6.png)</a>
 
 !!! tip
-    You can click on the column header to sort by it
+    Click on the column header to sort
 
 <div class="x6-header-table-start"></div>
 
@@ -91,8 +90,8 @@
 |1|PA4|UART0_TX|-|PA_EINT4|
 |3|PA5|UART0_RX|PWM0|PA_EINT5|
 
-!!!tip
-    You can always learn more in the Allwinner H5 [datasheet](../hardware-integration/allwinner.md)
+!!! Tip
+    Allwinner H5 data sheet is available on [this page](../hardware-integration/allwinner.md)
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.0.2/tablesort.min.js"></script>
