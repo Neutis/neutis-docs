@@ -26,5 +26,5 @@ Memory
 
 | Allwinner H5  | Allwinner H3  |
 |---|---|
-| [Download Data sheet]((http://files.emlid.com/neutis/Allwinner_H5_Datasheet.pdf))  | [Download Data sheet](http://files.emlid.com/neutis/Allwinner_H3_Datasheet.pdf)  |
+| [Download Data sheet](http://files.emlid.com/neutis/Allwinner_H5_Datasheet.pdf)  | [Download Data sheet](http://files.emlid.com/neutis/Allwinner_H3_Datasheet.pdf)  |
 
