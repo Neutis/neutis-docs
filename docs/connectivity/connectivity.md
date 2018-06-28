@@ -8,7 +8,7 @@ You can use one of the following options to connect to Neutis.
 
 - [USB-Ethernet](usb-ethernet.md)
 
-    Grab one Micro-USB cable and you're good to go.
+    For this type of connection you need Micro-USB cable.
 
 - [Wi-Fi](wifi.md)
 
