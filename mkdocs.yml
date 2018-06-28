@@ -39,8 +39,7 @@ pages:
   - 'FEL': 'intro/fel.md'
 - Connectivity: 
     - 'Overview': 'connectivity/connectivity.md'
-    - 'USB-Serial': 'connectivity/usb-serial.md'
-    - 'Serial with CP': 'connectivity/serial-cp.md'
+    - 'Serial': 'connectivity/serial.md'
     - 'USB-Ethernet': 'connectivity/usb-ethernet.md'
     - 'Wi-Fi': 'connectivity/wifi.md'
     - 'Ethernet': 'connectivity/ethernet.md'

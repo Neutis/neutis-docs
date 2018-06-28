@@ -1,8 +1,17 @@
 
+## Connection with internal USB to UART converter
 
 Neutis devboard has a USB-Serial converter. To enable it set a jumper on UART pins (`URX0` and `UTX0`).
 
 ![jumpers_on_uart_pins](../../img/connectivity/jumpers_on_uart_pins.png)
+
+## Connection with external USB to UART converter
+
+You can connect to Neutis using external USB to UART converter. This example is covering connection with CP2102
+controller, but any other applicable devices may be also used. You need to attach URX0 pin to TXD, UTX0 to RXD
+and GND to GND like it is demonstrated in the picture below.
+
+![CP2102](../../img/connectivity/cp2102_connection.png)
 
 To connect over serial and see Linux booting over the serial port you need to follow a couple of simple steps.
 
