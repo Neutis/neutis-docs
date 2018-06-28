@@ -1,7 +1,8 @@
 
 ## Connection with internal USB to UART converter
 
-Neutis devboard has a USB-Serial converter. To enable it set a jumper on UART pins (`URX0` and `UTX0`).
+Neutis devboard has a USB-Serial converter. To enable it set a jumper on UART pins (`URX0` and `UTX0`) and
+plug in Micro-USB cable to **POWER CONSOLE** port on Neutis.
 
 ![jumpers_on_uart_pins](../../img/connectivity/jumpers_on_uart_pins.png)
 
