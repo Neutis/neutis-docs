@@ -8,7 +8,7 @@ plug in Micro-USB cable to **POWER CONSOLE** port on Neutis.
 
 ## Connection with external USB to UART converter
 
-You can connect to Neutis using external USB to UART converter. This example is covering connection with CP2102
+You can connect to Neutis using an external USB to UART converter. This example covers connection with CP2102
 controller, but any other applicable devices may be also used. You need to attach URX0 pin to TXD, UTX0 to RXD
 and GND to GND like it is demonstrated in the picture below.
 
