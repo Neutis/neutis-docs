@@ -1,8 +1,9 @@
 ## What is FEL?
 
 FEL is a low-level procedure that implements a special USB protocol.
-It is contained in the BROM (BootROM) on Allwinner devices and is
-mainly used for initial programming and recovery of devices.
+It is stored in the BootROM, write-protected flash inside the chip.
+BootROM contains the very first code which is executed by the Allwinner devices.
+FEL is mainly used for initial programming and recovery of devices.
 
 !!! note
     Your device needs to be attached to a host by using a USB cable,
