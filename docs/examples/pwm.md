@@ -44,7 +44,7 @@ echo 10000000 > /sys/class/pwm/pwmchip0/pwm0/period
 
 ```
 
-It means that the signal is on for 10% of the period and off the other 90%.
+It means that the signal is high for 10% of the period and low the other 90%.
 
 Set normal polarity:
 
