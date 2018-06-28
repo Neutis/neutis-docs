@@ -20,3 +20,7 @@ table[id^="index_"] td {
 table[id^="index_"] {
     box-shadow: none !important;
 }
+
+.md-typeset table:not([class]) th {
+    background-color: #212121;
+}
