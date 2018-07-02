@@ -43,7 +43,7 @@ We're loading a minimal Linux image through FEL protocol. This image only export
 Generally, the Allwinner device tries to boot in the following order:
 
 * SD Card0 also known as MMC0
-* Internal NAND flash also known as NAND
+* Internal NAND flash also known as eMMC
 * SD Card2 also known as MMC2
 * SPI connected NOR flash also known as SPI
 * If all above fails to boot, FEL is executed
