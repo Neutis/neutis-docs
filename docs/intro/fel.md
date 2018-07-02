@@ -38,12 +38,17 @@ There are many ways of entering FEL mode:
 
 We're loading a minimal Linux image through FEL protocol. This image only exports eMMC as a mass storage device. This way we can flash eMMC.
 
-## Boot priority
+## Boot sequence
 
-Generally, the Allwinner device tries to boot in the following order:
+<div style="text-align: center;"><img src="../../img/intro/boot-sequence.png" style="width: 700px;"></div><br>
+
+Generally, the Allwinner device tries to boot in the following order if FEL pin is high:
 
 * SD Card0 also known as MMC0
 * Internal NAND flash also known as eMMC
 * SD Card2 also known as MMC2
 * SPI connected NOR flash also known as SPI
 * If all above fails to boot, FEL is executed
+
+If Magic signature is found at the right location on either MMC or eMMC, the BROM will try to load U-Boot,
+which in turn loads the Linux kernel.
