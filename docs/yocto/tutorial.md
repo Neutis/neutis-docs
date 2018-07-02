@@ -13,7 +13,9 @@ For Native Linux Machine you need:
 
 For a list of distributions that support the Yocto Project, see the ["Supported Linux Distributions"](http://www.yoctoproject.org/docs/2.4/ref-manual/ref-manual.html#detailed-supported-distros) section in the Yocto Project Reference Manual.
 
-For the build, you need to install the [required packages](https://www.yoctoproject.org/docs/2.4/yocto-project-qs/yocto-project-qs.html#packages) according to your Linux distribution.
+For the build, you need to install the [required packages](https://www.yoctoproject.org/docs/2.4/yocto-project-qs/yocto-project-qs.html#packages)
+according to your Linux distribution. Additionally, install openssl development package on your host.
+For example, on Debian/Ubuntu you need ```libssl-dev```.
 
 ## Building
 
