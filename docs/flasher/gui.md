@@ -1,4 +1,4 @@
-Flasher has user friendly gragical interface.
+Flasher has user friendly graphical interface.
 
 Session starts with initial window prompting you to choose image file and mode (flashing or testing).
 
