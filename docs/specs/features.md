@@ -7,7 +7,7 @@ RAM | 512 MB DDR3
 Storage | 8 GB eMMC
 Wi-Fi | 802.11 b/g/n
 Bluetooth | 4.0 dual-mode BLE
-Operating temp | -25…+85 °C
+Operating temp | -20…+70 °C
 Storage temp | -40…+85 °C
 Board connectors | 2x DF40 80-pin
 Internal antenna | Onboard ceramic
