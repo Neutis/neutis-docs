@@ -69,6 +69,7 @@ pages:
     - 'Camera': 'examples/camera.md'
     - 'HDMI': 'examples/hdmi.md'
     - 'UART': 'examples/uart.md'
+    - 'Secure Chip': 'examples/secure-chip.md'
 - Yocto:
     - 'Why Yocto?': 'yocto/why.md'
     - 'Build your own Linux OS': 'yocto/tutorial.md'
