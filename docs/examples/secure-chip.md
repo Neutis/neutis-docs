@@ -6,7 +6,7 @@ This examples demonstrates how to generate random numbers.
 
 ## Package building and installation
 
-The first step is to build an package with ```CryptoAuthLib``` support and ```random_number``` application.
+The first step is to build a package with ```CryptoAuthLib``` support and ```random_number``` application.
 If you have not yet build any images or packages with Yocto, visit [this page](../yocto/tutorial.md).
 If you have already set up build host, then navigate to ```neutis-image``` directory.
 
