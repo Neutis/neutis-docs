@@ -64,7 +64,11 @@ To play:
 Launch ```alsamixer``` again and make sure that your playback settings are similar to these:
 ![alsamixer_playback](../../img/examples/alsamixer_playback.png)
 
-To play the recorded sound you need to connect your headphones to the **LINEOUT** port.
+To play the recorded sound you need to connect your speakers to the **LINEOUT** port.
+
+!!! danger
+    Specified for N kOhm impedance. Do not connect the headphones to **LINEOUT**, it can
+    damage your device.
 
 Launch aplay:
 ```bash
