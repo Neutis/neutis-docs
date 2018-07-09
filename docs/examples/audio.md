@@ -44,6 +44,8 @@ overlays=analog-codec
 
 Then reboot and connect your mobile phone to **LINEIN** port with 3.5mm cable.
 
+![linein](../../img/examples/linein.png)
+
 
 Launch ```alsamixer``` and go to [Capture] tab by pressing F4 button. You should see the following window:
 
@@ -66,8 +68,10 @@ Launch ```alsamixer``` again and make sure that your playback settings are simil
 
 To play the recorded sound you need to connect your speakers to the **LINEOUT** port.
 
+![lineout](../../img/examples/lineout.png)
+
 !!! danger
-    Specified for N kOhm impedance. Do not connect the headphones to **LINEOUT**, it can
+    Specified for 10 kOhm impedance. Do not connect the headphones to **LINEOUT**, it can
     damage your device.
 
 Launch aplay:
