@@ -1,6 +1,6 @@
 ## UART example
 
-Neutis has 4 available UART ports:
+Neutis has 5 available UART ports:
 
 |Port|Device|TX Pin|RX Pin|
 |:-:|:-:|:--:|:--:|
@@ -8,6 +8,7 @@ Neutis has 4 available UART ports:
 |UART1|/dev/ttyS1|PG6|PG7
 |UART2|/dev/ttyS2|PA0|PA1
 |UART3|/dev/ttyS3|PA13|PA14
+|S_UART|/dev/ttyS4|PL2|PL3
 
 In this example, we are going to perform a loopback test by sending
 data to a TX pin and receiving on the RX pin of the UART2 port.
