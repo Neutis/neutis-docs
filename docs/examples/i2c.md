@@ -1,6 +1,15 @@
 #I²C
 
-Emlid Neutis has 3x I2C interfaces. In this example, we connect an I2C device (a breakout board that includes MS5611 pressure sensor) and detect it
+Emlid Neutis has 4x I2C interfaces:
+
+|Port|Device|SCK Pin|SDA Pin|Pull-Up
+|:-:|:-:|:--:|:--:|:-:|
+|I2C0|/dev/i2c-0|PA11|PA12|Yes
+|I2C1|/dev/i2c-1|PA18|PA19|No
+|I2C2|/dev/i2c-2|PE12|PE13|Yes
+|S_I2C|/dev/i2c-3|PL0|PL1|Yes
+
+In this example, we connect an I2C device (a breakout board that includes MS5611 pressure sensor) and detect it.
 
 ## Attaching board
 
