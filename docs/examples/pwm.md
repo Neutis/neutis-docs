@@ -3,7 +3,7 @@
 Emlid Neutis has two available PWM pins. In this example, we are using ```PWM0```,
 which is the alternative function of ```URX0``` pin. By default, it is disabled.
 
-<div style="text-align: center;"><img src="../../img/examples/pwm_urx0_pin.jpg" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/examples/pwm_urx0_pin.png" style="width: 500px;"></div><br>
 
 To enable it you should apply special Device Tree overlay by editing ```/boot/Env.txt```.
 You need to add ```pwm``` to the ```overlays``` section:
