@@ -31,9 +31,9 @@ the higher power consumption is.
 
 ## Absolute maximum ratings
 
-|Value|Mix|Max|
+|Value|Min|Max|
 |:-:|:-:|:-:|
-|Current for one GPIO| |40mA|
+|Current for one GPIO| |10mA|
 |Voltage on CORE_POWER_IN| -0.3V | 1.5V|
 |Voltage on VDD_IO| -0.3V | 3,6V|
 |Voltage on 3V3_IN| -0.3V | 3,5V|
