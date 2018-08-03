@@ -30,7 +30,7 @@ products and services to the Yocto Project.
 
 ### Tools and SDK
 
-Apart from execution egine and reference distribution, Yocto Project includes
+Apart from execution engine and reference distribution, Yocto Project includes
 recipes to build a fully functional toolchain as part of your project build.
 
 ### Supports Partial Builds
