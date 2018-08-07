@@ -19,8 +19,6 @@ enp0s20u1u4u1 Link encap:Ethernet  HWaddr a6:4b:bf:d4:03:1b
         RX bytes:12785 (12.7 KB)  TX bytes:5780 (5.7 KB)
 ```
 
-<div style="text-align: center;"><img src="../../img/connectivity/usb-eth/new_eth_device_debian.png" style="width: 700px;"></div><br>
-
 On MacOS:
 
 ```bash

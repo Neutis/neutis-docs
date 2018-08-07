@@ -26,27 +26,10 @@ To flash Neutis you'll need to boot it in a flashing(FEL) mode.
 * Push and release the _RESET_ button
 * Release the _UBOOT_ button
 
-![fel_1](../../img/intro/fel_1.gif)</a>
-
 Alternatively, you can enter flashing mode by holding the _UBOOT_ button and powering Neutis devboard via micro-USB cable.
 
 ![fel_2](../../img/intro/fel_2.gif)</a>
 
-### GUI
+### Neutis Flasher
 
-[Download Neutis Flasher]()
-
-- Screenshot with the waiting interface
-- Screenshot with the detected device
-- Screenshot with image selection
-- Screenshot with the flashing process
-- Screenshot with "Done"
-
-## Booting
-
-- Reset the Neutis devboard (photo)
-- The loading process is initiated (screenshot of screen with Linux booting)
-- [Connect over serial](../connectivity/usb-serial.md) to see the output
-
-!!! tip "Connectivity"
-    There are other ways to connect to Neutis. Explore other connectivity options [in the corresponding section](../connectivity/connectivity.md).
+*Coming soon!*
