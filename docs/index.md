@@ -61,7 +61,7 @@ Neutis is a quad-core system on module for makers and hardware startups.
 </td>
 
 <td>
-  <div style="text-align: center; font-size: 1.5em;"><b>-25...+85 °C</b></div>
+  <div style="text-align: center; font-size: 1.5em;"><b>-20...+70 °C</b></div>
   <div style="text-align: center;">Extended temperature range</div>
 </tr>
 <tr>

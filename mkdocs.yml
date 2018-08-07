@@ -46,7 +46,7 @@ pages:
     - 'Interfaces': 'specs/interfaces.md'
     - 'Mechanical': 'specs/mechanical.md'
 - Pinout:
-    - 'Neutis': 'pinout/neutis.md'
+    - 'Neutis Board': 'pinout/neutis.md'
     - 'Neutis Devboard': 'pinout/devboard.md'
 - Hardware Integration:
     - 'Overview': 'hardware-integration/preface.md'
