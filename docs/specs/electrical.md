@@ -17,7 +17,7 @@ CORE_POWER_IN domain voltage depends on the processor frequency. The higher the 
 the higher power consumption is.
 
 !!! note
-     Refer to p.685 of [Allwinner H5 datasheet](allwinner) for more information.
+     Refer to p.685 of [Allwinner H5 datasheet](../hardware-integration/allwinner.md) for more information.
 
 |Domain|Min|Typ|Max|
 |:-:|:-:|:-:|:-:|

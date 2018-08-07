@@ -45,12 +45,12 @@ pages:
     - 'Features': 'specs/features.md'
     - 'Interfaces': 'specs/interfaces.md'
     - 'Mechanical': 'specs/mechanical.md'
+    - 'Electrical': 'specs/electrical.md'
 - Pinout:
     - 'Neutis Board': 'pinout/neutis.md'
     - 'Neutis Devboard': 'pinout/devboard.md'
 - Hardware Integration:
     - 'Overview': 'hardware-integration/preface.md'
-    - 'Electrical characteristics': 'hardware-integration/power.md'
     - 'Power on sequence': 'hardware-integration/power_on_sequence.md'
     - 'Schematics': 'hardware-integration/schematics.md'
     - 'PCB Design Guide': 'hardware-integration/pcb-guide.md'
