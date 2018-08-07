@@ -203,7 +203,7 @@ We’ve made sure that you’re covered with everything you need for hassle-free
 </tbody>
 </table>
 
-### Package contents
+### Development kit
 
 ![scheme](img/package_contents.png)</a>
 

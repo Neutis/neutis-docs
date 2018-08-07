@@ -1,9 +1,7 @@
-## What is FEL?
+## What is flashing(FEL) mode?
 
-FEL is a low-level procedure that implements a special USB protocol.
-It is stored in the BootROM, write-protected flash inside the chip.
-BootROM contains the very first code which is executed by the Allwinner devices.
-FEL is mainly used for initial programming and recovery of devices.
+FEL is a low-level subroutine that implements a special USB protocol for initial programming and recovery of devices. It is stored in the BootROM,
+write-protected flash inside the chip. BootROM contains the very first code which is executed by the Allwinner devices.
 
 !!! note
     Your device needs to be attached to a host by using a USB cable,
@@ -50,5 +48,5 @@ Generally, the Allwinner device tries to boot in the following order if FEL pin 
 * SPI connected NOR flash also known as SPI
 * If all above fails to boot, FEL is executed
 
-If Magic signature is found at the right location on either MMC or eMMC, the BROM will try to load U-Boot,
-which in turn loads the Linux kernel.
+If Magic signature is found at the right location on either MMC or eMMC,
+the BROM will try to load U-Boot, which in turn loads the Linux kernel.
