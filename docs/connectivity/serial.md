@@ -4,7 +4,7 @@
 Neutis devboard has a USB-Serial converter. To enable it set a jumper on UART pins (`URX0` and `UTX0`) and
 plug in Micro-USB cable to **POWER CONSOLE** port on Neutis.
 
-![jumpers_on_uart_pins](../../img/connectivity/jumpers_on_uart_pins.png)
+![jumpers_on_uart_pins](../../img/connectivity/serial/jumpers_on_uart_pins.png)
 
 ## Connection with external USB to UART converter
 
@@ -12,7 +12,7 @@ You can connect to Neutis using an external USB to UART converter. This example 
 controller, but any other applicable devices may be also used. You need to attach URX0 pin to TXD, UTX0 to RXD
 and GND to GND like it is demonstrated in the picture below.
 
-![CP2102](../../img/connectivity/cp2102_connection.png)
+![CP2102](../../img/connectivity/serial/cp2102_connection.png)
 
 To connect over serial and see Linux booting over the serial port you need to follow a couple of simple steps.
 
@@ -66,7 +66,7 @@ screen /dev/tty.SLAB_USBtoUART 115200
 
 ```
 
-<div style="text-align: center;"><img src="../../img/connectivity/login_linux_macos.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/connectivity/serial/login_linux_macos.png" style="width: 500px;"></div><br>
 
 #### Login
 
@@ -75,9 +75,9 @@ At the login prompt, type ```root``` and press Enter.
 ### Windows
 
 - Download and install PuTTy terminal emulator.
-- in Device Manager find your COM port.
+- In Device Manager find your COM port.
 
-<div style="text-align: center;"><img src="../../img/connectivity/device_manager_windows.png" style="width: 600px;"></div><br>
+<div style="text-align: center;"><img src="../../img/connectivity/serial/device_manager_windows.png" style="width: 600px;"></div><br>
 
 In this example it is ```COM1```.
 
@@ -85,12 +85,8 @@ In this example it is ```COM1```.
 - Speed __115200__
 - Connection type __Serial__
 
-<div style="text-align: center;"><img src="../../img/connectivity/putty_settings.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/connectivity/serial/putty_settings.png" style="width: 500px;"></div><br>
 
-Click open:
+Click open, at the login prompt, type ```root``` and press Enter.:
 
-<div style="text-align: center;"><img src="../../img/connectivity/login_putty.png" style="width: 600px;"></div><br>
-
-#### Login
-
-At the login prompt, type ```root``` and press Enter.
+<div style="text-align: center;"><img src="../../img/connectivity/serial/serial_login_win.png" style="width: 500px;"></div><br>

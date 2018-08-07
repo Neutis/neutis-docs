@@ -17,3 +17,5 @@ You can use one of the following options to connect to Neutis.
     with a Wi-Fi connection.
 
 - [Ethernet](ethernet.md)
+
+    Ethernet is a family of computer networking technologies commonly used in local area networks (LAN). For this type of connection you need 10/100 Mbps Ethernet cable.
