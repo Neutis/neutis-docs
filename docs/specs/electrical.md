@@ -29,6 +29,20 @@ the higher power consumption is.
 !!! Warning
     A higher core frequency requires a higher voltage on CORE_POWER_IN
 
+|Core Power|CPU frequency|
+|:-:|:-:|
+|1,0V|408MHz|
+|1,04V|648MHz|
+|1,1V|816MHz|
+|1,12V|912MHz|
+|1,2V|1008MHz|
+|1,24V|1104MHz|
+|1,29V|1200MHz|
+|1,34V|1296MHz|
+
+!!! Warning
+    A higher voltage on CORE_POWER_IN requires a better cooling conditions
+
 ## Absolute maximum ratings
 
 |Value|Min|Max|

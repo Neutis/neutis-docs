@@ -209,7 +209,7 @@ We’ve made sure that you’re covered with everything you need for hassle-free
 
 ### Getting started
 
-- [Flashing and booting Neutis](intro/flash.md) with a Linux image
+- [Flashing and booting Neutis](quickstart/quickstart.md) with a Linux image
 - [Connecting](connectivity/connectivity.md) to Neutis
 - [Examples](examples/gpio.md)
 - [Pinout](pinout/neutis.md) and [specifications](specs/features.md)
