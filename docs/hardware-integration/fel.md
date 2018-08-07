@@ -15,7 +15,7 @@ in BROM. It jumps to eGON.BRM address where some low-level procedures are
 performed to set up CPU, clocks, etc. After that the FEL pin is checked:
 
 * If it is low, then your device enters FEL mode.
-* If the pin is high, it tries to boot from the media device.
+* If the pin is high, it tries to boot from the media devices.
 
 !!! note
     If a device fails to boot from the media device (MMC or internal NAND flash),
@@ -24,13 +24,12 @@ performed to set up CPU, clocks, etc. After that the FEL pin is checked:
 There are many ways of entering FEL mode:
 
 * By pressing a special button.
-* Over serial console by sending '1' character during power-up.
 * Using a special SD card image which just jumps to FEL.
 * By having no valid boot image.
 
 !!! note
     The FEL pin by default is pulled high. However, when you push 'U-BOOT' button on
-    your Neutis, the pin becomes low.
+    your Neutis Devboard, the pin becomes low.
 
 ## How do we flash software?
 

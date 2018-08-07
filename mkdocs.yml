@@ -77,6 +77,4 @@ pages:
     - 'What is Neutis Flasher?': 'flasher/preface.md'
     - 'CLI': 'flasher/cli.md'
     - 'GUI': 'flasher/gui.md'
-- Building a product:
-    - 'Prototype': 'product/prototype.md'
-    - 'Certification': 'product/certs.md'
+# - Certification: 'product/certs.md'
