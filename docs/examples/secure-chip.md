@@ -10,7 +10,7 @@ The first step is to build a package with ```CryptoAuthLib``` support and ```ran
 If you have not yet build any images or packages with Yocto, visit [this page](../yocto/tutorial.md).
 If you have already set up build host, then navigate to ```neutis-image``` directory.
 
-Open ```meta-layers/meta-neutis-examples/recipes-core/images/neutis-image.bbappend```
+Open ```meta-layers/meta-emlid-neutis-examples/recipes-core/images/neutis-image.bbappend```
 and uncomment the following line:
 
 ```bash

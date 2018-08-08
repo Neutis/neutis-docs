@@ -8,7 +8,7 @@ The first step is to build an image with ALSA utils. If you have not yet
 build any images with Yocto, visit [this page](../yocto/tutorial.md). If you have already set up build host,
 then navigate to ```neutis-image``` directory.
 
-Open ```meta-layers/meta-neutis-examples/recipes-core/images/neutis-image.bbappend```
+Open ```meta-layers/meta-emlid-neutis-examples/recipes-core/images/neutis-image.bbappend```
 and uncomment the following line:
 
 ```bash
