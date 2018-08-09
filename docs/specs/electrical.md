@@ -21,7 +21,7 @@ the higher power consumption is.
 
 |Domain|Min|Typ|Max|
 |:-:|:-:|:-:|:-:|
-|CORE_POWER_IN|1,1V||1,4V|
+|CORE_POWER_IN|1,0V||1,4V|
 |VDD_IO|3,0V|3,3V|3,6V|
 |3V3_IN|3,24V|3,3V|3,36V|
 |VDD_RTC_IN|3,0V||3,3V|
@@ -41,7 +41,7 @@ the higher power consumption is.
 |1,34V|1296MHz|
 
 !!! Warning
-    A higher voltage on CORE_POWER_IN requires a better cooling conditions
+    It is recommended to use a cooling system for the stable CPU operation
 
 ## Absolute maximum ratings
 

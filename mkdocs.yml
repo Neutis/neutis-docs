@@ -47,8 +47,8 @@ pages:
     - 'Mechanical': 'specs/mechanical.md'
     - 'Electrical': 'specs/electrical.md'
 - Pinout:
-    - 'Neutis Board': 'pinout/neutis.md'
-    - 'Neutis Devboard': 'pinout/devboard.md'
+    - 'Neutis Module': 'pinout/neutis.md'
+    - 'Neutis Developer Board': 'pinout/devboard.md'
 - Hardware Integration:
     - 'Overview': 'hardware-integration/preface.md'
     - 'Power on sequence': 'hardware-integration/power_on_sequence.md'

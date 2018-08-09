@@ -1,4 +1,4 @@
-# Dev Board Pinout
+# Developer Board Pinout
 
 <a href="../../img/pinout/dev_board_pinout.png" target="_blank"> ![scheme](../../img/pinout/dev_board_pinout.png)</a>
 
@@ -30,9 +30,9 @@
 |22|PA9|-|-|PA_EINT9|
 |24|PA10|-|-|PA_EINT10|
 |27|PL6|-|-|S_PL_EINT6|
-|28|PA18|PCM0_SYNC|TWI1_SCK|-|-|PA_EINT18|
+|28|PA18|PCM0_SYNC|TWI1_SCK|PA_EINT18|
 |29|PL11|S_CIR_RX|-|S_PL_EINT12|
-|31|PL10|S_PWM|-|-|-|S_PL_EINT10|
+|31|PL10|S_PWM|-|S_PL_EINT10|
 |30|PA19|PCM0_CLK|TWI1_SDA|PA_EINT19|
 |32|PA20|PCM0_DOUT|-|PA_EINT20|
 |34|PA21|PCM0_DIN|-|PA_EINT21|

@@ -14,17 +14,17 @@ Using a multilayer board provides an easy-to-use layout of Neutis interfaces and
 
 - Pay attention to [antenna placement](antenna-placement.md) in Neutis.
 
-- Pin33(PL8) must be externally tied to 3V3_IN.
+- Pin33(PL8) is used as a USB ID pin(Linux kernel driver), it must be externally tied to 3V3_IN.
 
 - Pin35(PL9) have to be used as a USB power enable for USB-OTG, Neutis raises
   this pin after the USB-OTG mode initialization by Linux kernel driver.
 
-- Pin43(1V2_SYS_ENABLE) must be left floating. Or you can control this pin
-  by the hands, 1V2_SYS_ENABLE is equipped with an internal pull-up to 3V3_IN.
+- Pin43(1V2_SYS_ENABLE) is enable for the internal DC/DC for 1V2 system power,
+  it must be left floating. 1V2_SYS_ENABLE is equipped with an internal pull-up to 3V3_IN. If controlled externally, must be held high for valid module operation.
 
 - All reserved or other unused pins have to be left floating.
 
-You will find more details inside [Neutis Dev board Schematics](schematics.md).
+You will find more details inside [Neutis developer board schematics](schematics.md).
 
 Placement of connectors and standoffs shown in the picture below. Use
 this footprint in your project with Neutis.
