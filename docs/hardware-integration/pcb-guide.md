@@ -14,13 +14,33 @@ Using a multilayer board provides an easy-to-use layout of Neutis interfaces and
 
 - Pay attention to [antenna placement](antenna-placement.md) in Neutis.
 
-- Pin33(PL8) is used as a USB ID pin(Linux kernel driver), it must be externally tied to 3V3_IN.
+- Pin35(PL9) has to be used as a USB power enable for USB-OTG, Neutis raises
+this pin after the USB-OTG mode initialization by Linux. Pin33(PL8) is used as a USB ID pin configured by Linux, it must be externally tied to 3V3_IN.
 
-- Pin35(PL9) have to be used as a USB power enable for USB-OTG, Neutis raises
-  this pin after the USB-OTG mode initialization by Linux kernel driver.
+Linux configuration example (Device Tree fragment):
 
-- Pin43(1V2_SYS_ENABLE) is enable for the internal DC/DC for 1V2 system power,
-  it must be left floating. 1V2_SYS_ENABLE is equipped with an internal pull-up to 3V3_IN. If controlled externally, must be held high for valid module operation.
+```
+reg_usb0_vbus: usb0-vbus {
+   compatible = "regulator-fixed";
+   regulator-name = "usb0-vbus";
+   regulator-min-microvolt = <5000000>;
+   regulator-max-microvolt = <5000000>;
+   enable-active-high;
+   gpio = <&r_pio 0 9 GPIO_ACTIVE_HIGH>;   /* PL9 */
+   status = "okay";
+};
+
+usbphy {
+   usb0_id_det-gpios = <&r_pio 0 8 GPIO_ACTIVE_HIGH>;   /* PL8 */
+   usb0_vbus-supply = <&reg_usb0_vbus>;
+   status = "okay";
+};
+```
+For more detailed information please proceed [Neutis BSP](https://github.com/emlid/meta-emlid-neutis).
+Theoretically, you can choose other GPIO pins for these purposes.
+
+- Pin43(1V2_SYS_ENABLE) is an enable pin for the internal DC/DC for 1V2 system power,
+it must be left floating. 1V2_SYS_ENABLE is equipped with an internal pull-up to 3V3_IN. If controlled externally, must be held high for valid module operation.
 
 - All reserved or other unused pins have to be left floating.
 
