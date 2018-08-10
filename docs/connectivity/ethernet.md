@@ -117,6 +117,47 @@ root@neutis-n5:~# ping 192.168.10.2
 
 ```
 
-On Windows:
+### Windows
 
+Windows Settings -> Network & Internet -> Ethernet
 
+<div style="text-align: center;"><img src="../../img/connectivity/eth/neutis_eth_win_sett.png" style="width: 500px;"></div><br>
+
+Related settings -> Change adapter options
+
+<div style="text-align: center;"><img src="../../img/connectivity/eth/neutis_eth_win_adap_opt.png" style="width: 500px;"></div><br>
+
+Choose your Ethernet interface and click twice. You need to figure out your IP address.
+
+<div style="text-align: center;"><img src="../../img/connectivity/eth/neutis_eth_win_eth_bytes_ret.png" style="width: 300px;"></div><br>
+<div style="text-align: center;"><img src="../../img/connectivity/eth/neutis_eth_win_eth_stat.png" style="width: 300px;"></div><br>
+
+In this case, IP address is `169.254.146.210`. Neutis address must be different, it could be `169.254.146.211`, for example.
+
+Neutis configuration:
+
+Stop `NetworkManager` to release the ethernet interface for configuration:
+```bash
+root@neutis-n5:~# systemctl stop Networkmanager
+
+```
+
+!!! warning
+    Connect to Neutis via USB-console or USB-ethernet, WiFi is managed by NetworkManager
+
+You need to set IP address using `ifconfig` utility:
+
+```
+root@neutis-n5:~# ifconfig eth0 169.254.146.211
+```
+
+Connection established, Neutis and Your PC are in one local network.
+
+```bash
+root@neutis-n5:~# ping 169.254.146.210
+64 bytes from 169.254.146.210: icmp_seq=1 ttl=64 time=6.03 ms
+64 bytes from 169.254.146.210: icmp_seq=2 ttl=64 time=4.41 ms
+64 bytes from 169.254.146.210: icmp_seq=3 ttl=64 time=5.37 ms
+64 bytes from 169.254.146.210: icmp_seq=4 ttl=64 time=4.33 ms
+...
+```
