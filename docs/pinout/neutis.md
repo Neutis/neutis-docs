@@ -3,8 +3,7 @@
 The list of pins on Neutis connectors is available in this section.
 Most of them are routed on the [developer board](devboard.md).
 
- <a href="../../img/pinout/neutis_pinout_x1.png" target="_blank"> ![scheme](../../img/pinout/neutis_pinout_x1.png)</a>
- <a href="../../img/pinout/neutis_pinout_x2.png" target="_blank"> ![scheme](../../img/pinout/neutis_pinout_x2.png)</a>
+Neutis pinout is available on [Neutis web-site](https://neutis.io).
 
 
 !!! Tip
