@@ -1,7 +1,7 @@
 site_name: Neutis docs
 theme_dir: docstheme/material
 site_favicon: favicon.ico
-repo_url: https://github.com/emlid/neutis-docs
+repo_url: https://github.com/Neutis/neutis-docs
 
 extra:
   palette:
@@ -10,11 +10,11 @@ extra:
   logo: 'img/logo.svg'
   social:
     - type: 'github'
-      link: 'https://github.com/emlid'
+      link: 'https://github.com/Neutis'
     - type: 'twitter'
-      link: 'https://twitter.com/emlidtech'
+      link: 'https://twitter.com/neutis_io'
     - type: 'facebook'
-      link: 'https://facebook.com/emlidtech'
+      link: 'https://facebook.com/neutis'
 google_analytics:
  - UA-49508097-1
  - auto
