@@ -14,7 +14,7 @@ Machine|IP address|
 |Neutis| 192.168.10.1|
 |Linux/MacOS PC| 192.168.10.2|
 
-Stop `NetworkManager` to release the ethernet interface for configuration:
+Stop `NetworkManager` to release the Ethernet interface for configuration:
 ```bash
 root@neutis-n5:~# systemctl stop Networkmanager
 
@@ -23,7 +23,7 @@ root@neutis-n5:~# systemctl stop Networkmanager
 !!! warning
     Connect to Neutis via USB-console or USB-ethernet, WiFi is managed by NetworkManager
 
-You need to set IP address using `ifconfig` utility:
+You need to set an IP address using `ifconfig` utility:
 
 ```
 root@neutis-n5:~# ifconfig eth0 192.168.10.1
@@ -40,7 +40,7 @@ Stop `NetworkManager` if this service is active:
 user@your-PC:~# systemctl stop Networkmanager
 ```
 
-You need to figure out the name of your ethernet interface, enter `ifconfig` to display the list of network interfaces:
+You need to figure out the name of your Ethernet interface, enter `ifconfig` to display the list of network interfaces:
 
 ```bash
 user@your-PC:~# ifconfig
@@ -70,7 +70,7 @@ wlp2s0    Link encap:Ethernet  HWaddr b8:81:98:e1:31:b5
           RX bytes:3165893 (3.1 MB)  TX bytes:591665 (591.6 KB)
 ```
 
-In this case, `enp3s0` is the ethernet interface. You need to assign IP address.
+In this case, `enp3s0` is the Ethernet interface. You need to assign an IP address.
 
 ```
 user@your-PC:~# ifconfig enp3s0 192.168.10.2
@@ -136,7 +136,7 @@ In this case, IP address is `169.254.146.210`. Neutis address must be different,
 
 Neutis configuration:
 
-Stop `NetworkManager` to release the ethernet interface for configuration:
+Stop `NetworkManager` to release the Ethernet interface for configuration:
 ```bash
 root@neutis-n5:~# systemctl stop Networkmanager
 
@@ -145,7 +145,7 @@ root@neutis-n5:~# systemctl stop Networkmanager
 !!! warning
     Connect to Neutis via USB-console or USB-ethernet, WiFi is managed by NetworkManager
 
-You need to set IP address using `ifconfig` utility:
+You need to set an IP address using `ifconfig` utility:
 
 ```
 root@neutis-n5:~# ifconfig eth0 169.254.146.211
