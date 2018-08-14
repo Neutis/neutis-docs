@@ -1,4 +1,4 @@
-<div style="text-align: center;"><img src="img/neutis.png" style="width: 700px;"></div><br>
+<div style="text-align: center;"><img src="img/neutis.png" style="width: 500px;"></div><br>
 
 
 Neutis is a quad-core system on module for makers and hardware startups.
