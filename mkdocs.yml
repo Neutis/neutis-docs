@@ -16,7 +16,7 @@ extra:
     - type: 'facebook'
       link: 'https://facebook.com/neutis'
 google_analytics:
- - UA-49508097-1
+ - UA-114336767-1
  - auto
 
 extra_css:
