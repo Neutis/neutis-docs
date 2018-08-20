@@ -26,6 +26,8 @@ To flash Neutis you'll need to boot it in a flashing(FEL) mode.
 * Push and release the _RESET_ button
 * Release the _UBOOT_ button
 
+![fel_1](../../img/intro/fel_1.gif)</a>
+
 Alternatively, you can enter flashing mode by holding the _UBOOT_ button and powering Neutis devboard via micro-USB cable.
 
 ![fel_2](../../img/intro/fel_2.gif)</a>
