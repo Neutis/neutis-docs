@@ -68,6 +68,7 @@ pages:
     - 'PWM': 'examples/pwm.md'
     - 'Secure Chip': 'examples/secure-chip.md'
     - 'SPI': 'examples/spi.md'
+    - 'SPI LCD display': 'examples/spi-lcd-display.md'
     - 'UART': 'examples/uart.md'
 - Yocto:
     - 'Why Yocto?': 'yocto/why.md'
