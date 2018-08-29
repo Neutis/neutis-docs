@@ -70,6 +70,7 @@ pages:
     - 'SPI': 'examples/spi.md'
     - 'SPI LCD display': 'examples/spi-lcd-display.md'
     - 'UART': 'examples/uart.md'
+    - 'WiFi Access Point': 'examples/wifi_ap.md'
 - Yocto:
     - 'Why Yocto?': 'yocto/why.md'
     - 'Build your own Linux OS': 'yocto/tutorial.md'
