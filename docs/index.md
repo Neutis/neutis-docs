@@ -217,4 +217,4 @@ We’ve made sure that you’re covered with everything you need for hassle-free
 
 ### Collaboration
 
-This document can be edited on [GitHub](https://github.com/emlid/neutis-docs) in Markdown. If you find any mistakes, typos or pieces that are not documented well enough simply open an issue or contribute by sending a pull request.
+This document can be edited on [GitHub](https://github.com/Neutis/neutis-docs) in Markdown. If you find any mistakes, typos or pieces that are not documented well enough simply open an issue or contribute by sending a pull request.

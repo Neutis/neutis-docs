@@ -36,7 +36,7 @@ usbphy {
    status = "okay";
 };
 ```
-For more detailed information please proceed [Neutis BSP](https://github.com/emlid/meta-emlid-neutis).
+For more detailed information please proceed [Neutis BSP](https://github.com/Neutis/meta-emlid-neutis).
 Theoretically, you can choose other GPIO pins for these purposes.
 
 - Pin43(1V2_SYS_ENABLE) is an enable pin for the internal DC/DC for 1V2 system power,

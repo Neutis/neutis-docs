@@ -22,7 +22,7 @@ For example, on Debian/Ubuntu you need ```libssl-dev```.
 After installing all packages clone repository for building Image for Neutis:
 
 ``` bash
-git clone git@github.com:emlid/neutis-image.git
+git clone git@github.com:Neutis/neutis-image.git
 ```
 
 Next, initialize your environment:
