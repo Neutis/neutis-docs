@@ -4,8 +4,7 @@ You can download the latest dev image below:
 
 | Dev image | 
 |------------|
-| [Download](https://files.emlid.com/)   | 
-| [md5](https://files.emlid.com/)        | 
+|[Download](http://files.emlid.com/neutis/firmware/neutis-image-v1.0.4.zip)|
 
 
 !!! tip "Yocto"
