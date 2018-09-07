@@ -39,7 +39,7 @@ This program allows to capture a number of frames from any V4L or V4L2 compatibl
 Take photo:
 
 ```bash
-fswebcam -d /dev/video0 -r 640x480 image.jpg
+fswebcam -d /dev/video0 -r 1280x720 -S 20 image.jpg
 ```
 
 ## Video streaming
