@@ -10,8 +10,8 @@ At the end of flashing Neutis sends self-tests results and Flasher shows QR code
 
 <div style="text-align:center"><img src ="../../img/flasher/passed_tests.png"></div>
 
-In case when one or more tests has been failed you will see list of results.  
-Here an example of results layout:
+In case one or more tests have failed you will see a list of results.  
+Here an example of the results view:
 
 <div style="text-align:center"><img src ="../../img/flasher/failed_tests.png"></div>
 
