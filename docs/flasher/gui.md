@@ -1,30 +1,25 @@
 Flasher has user friendly graphical interface.
 
-Get the latest version:
+## Download and run
 
-| Flasher Intsaller |
-|------------|
-| [**Linux**]() |
+!!! note ""
+    In the meantime, please use Linux operating system to flash your devices. Flash tool for Mac OS X and Windows are coming soon.
 
-!!! tip "Windows version"
-    Coming soon!
+* Get the latest version of the app: [**Neutis Manufacturing Flash Tool for Linux**](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.0.0.tar.bz2)
 
-## Installing Flasher
-* From terminal
+
+* Using a terminal navigate to directory with downloaded archive and extract it:
 ```sh
- cd <directory_with_installer>
- chmod +x neutis-manufacturing-flash-tool-v1.0.0.run
+ cd ~/Downloads
+ tar -xvf neutis-manufacturing-flash-tool-v1.0.0.tar.bz2 
+ cd Neutis\ Manufacturing\ Flash\ Tool/
 ```
-* Run installer
-* Pick the installation folder
-* Wait for the installation to complete
+* Run starting script with `sudo`:
+```sh
+sudo ./neutis-flasher-start.sh
+```
 
 ## Flashing process
-Run application from terminal:
-```sh
- cd <installation_directory>
- sudo ./neutis-flasher-start.sh
-```
 
 Session starts with initial window prompting you to choose image file and mode (flashing or testing).
 
