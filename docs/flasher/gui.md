@@ -5,10 +5,12 @@ Flasher has user friendly graphical interface.
 !!! note ""
     In the meantime, please use Linux operating system to flash your devices. Flash tool for Mac OS X and Windows are coming soon.
 
-* Get the latest version of the app: [**Neutis Manufacturing Flash Tool for Linux**](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.0.0.tar.bz2)
+| Neutis Flasher for Linux |
+|------------|
+| [**Download**](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.0.0.tar.bz2) |
 
 
-* Using a terminal navigate to directory with downloaded archive and extract it:
+* Using terminal navigate to directory with downloaded archive and extract it:
 ```sh
  cd ~/Downloads
  tar -xvf neutis-manufacturing-flash-tool-v1.0.0.tar.bz2 
