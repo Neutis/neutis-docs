@@ -77,6 +77,6 @@ pages:
     - 'Device Tree': 'yocto/device-tree.md'
 - Neutis Flasher:
     - 'What is Neutis Flasher?': 'flasher/preface.md'
-    - 'GUI': 'flasher/gui.md'
-    - 'CLI': 'flasher/cli.md'
+    - 'Neutis Flasher GUI': 'flasher/gui.md'
+    - 'Neutis Flasher CLI': 'flasher/cli.md'
 # - Certification: 'product/certs.md'
