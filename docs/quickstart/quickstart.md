@@ -33,4 +33,4 @@ Alternatively, you can enter flashing mode by holding the _UBOOT_ button and pow
 
 ### Neutis Flasher
 
-*Coming soon!*
+Use [**Neutis Manufacturing Flash Tool**](../flasher/gui.md) to flash Neutis.
