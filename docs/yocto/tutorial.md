@@ -43,11 +43,12 @@ Or
 bitbake neutis-minimal-image
 ```
 
-`neutis-image` - standard image with ...
+`neutis-image` - an image that allows running the examples.
 
-`neutis-minimal-image` - a small image just capable of allowing a device to boot
+`neutis-minimal-image` - a small image just capable of allowing a device to boot.
+
 You will find your image here:
-`....`
+`$BUILD/tmp/deploy/images/neutis-n5/*.sunxi-sdimg`
 
 [BitBake](https://www.yoctoproject.org/docs/2.4/bitbake-user-manual/bitbake-user-manual.html#bitbake-user-manual) is the tool at the heart of the OpenEmbedded build system and is responsible for parsing the Metadata, generating a list of tasks from it, and then executing those tasks.
 
@@ -57,7 +58,3 @@ There are some useful arguments for bitbake:
 * -D - increase the debug level
 * -c clean [target] - clean up your tmp dir for the given package
 * -f -c compile [target] - recompile your source code if you change a line in it
-
-You will find your image ...
-
-You can find more information in the official documentation of Yocto Project ...
