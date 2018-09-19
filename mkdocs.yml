@@ -65,6 +65,7 @@ pages:
     - 'GPIO': 'examples/gpio.md'
     - 'HDMI': 'examples/hdmi.md'
     - 'I2C': 'examples/i2c.md'
+    - 'OTA update': 'examples/ota.md'
     - 'PWM': 'examples/pwm.md'
     - 'Secure Chip': 'examples/secure-chip.md'
     - 'SPI': 'examples/spi.md'
