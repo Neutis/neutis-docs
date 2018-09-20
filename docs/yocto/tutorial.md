@@ -28,7 +28,8 @@ git clone git@github.com:Neutis/neutis-image.git
 Next, initialize your environment:
 
 ``` bash
-source init.sh
+bash init.sh
+source poky/oe-init-build-env build
 ```
 
 You will be in the build directory. After that you can start building an image with:
