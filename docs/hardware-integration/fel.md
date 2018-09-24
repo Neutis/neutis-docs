@@ -37,7 +37,7 @@ We're loading a minimal Linux image through FEL protocol. This image only export
 
 ## Boot sequence
 
-<div style="text-align: center;"><img src="../../img/intro/boot-sequence.png" style="width: 700px;"></div><br>
+<div style="text-align: center;"><img src="../../img/hardware-integration/boot-sequence.png" style="width: 700px;"></div><br>
 
 Generally, the Allwinner device tries to boot in the following order if FEL pin is high:
 
