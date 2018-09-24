@@ -6,10 +6,12 @@ You can download the latest dev image below:
 |------------|
 |[Download](http://files.emlid.com/neutis/firmware/neutis-image-v1.0.4.zip)|
 
+Neutis Dev Kit includes a heatsink, attach it by the following way:
+
+<a href="../../img/intro/heatsink_attachment_neutis.png" target="_blank"> ![scheme](../../img/intro/heatsink_attachment_neutis.png)</a>
 
 !!! tip "Yocto"
     Learn more about Yocto in [the corresponding section](../yocto/why.md).
-
 
 ## Flashing
 
