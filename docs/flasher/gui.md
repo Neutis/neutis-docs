@@ -44,7 +44,16 @@ Press  **Start** to proceed.
 Now you can connect Neutis units to the PC and flasher will start doing its job. From this moment the app doesn't require any user input.
 
 You will see as many progress bars as many devices you have connected.  
-At the end of flashing Neutis sends self-tests results and Flasher shows QR code unique for each Neutis. 
+The whole flashing procedure consists of 3 steps:
+
+* Device initializing
+* Firmware flashing
+* Hardware testing
+
+!!! warning
+    In case something went wrong during initialization step and error occured, please disconnect Neutis from PC to prevent unit overheating
+
+At the end of hardware testing Neutis sends self-tests results and Flasher shows QR code unique for each Neutis.
 
 <div style="text-align:center"><img src ="../../img/flasher/passed_tests.png"></div>
 
