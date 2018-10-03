@@ -23,11 +23,18 @@ sudo ./neutis-flasher-start.sh
 
 ## Flashing process
 
-Session starts with initial window prompting you to choose image file and mode (flashing or testing).
+Session starts with initial window prompting you to choose mode (flashing or testing).
 
-<div style="text-align:center"><img src ="../../img/flasher/initial_screen.png"></div>
+<div style="text-align:center"><img src ="../../img/flasher/start_screen.png"></div>
 
-Then you can connect Neutis units to the PC and flasher will start doing its job.
+In flashing mode you also need to select firmware image.
+
+<div style="text-align:center"><img src ="../../img/flasher/firmware_selected.png"></div>
+
+Press  **Start** to proceed.
+
+Now you can connect Neutis units to the PC and flasher will start doing its job. From this moment the app doesn't require any user input.
+
 You will see as many progress bars as many devices you have connected.  
 At the end of flashing Neutis sends self-tests results and Flasher shows QR code unique for each Neutis. 
 
