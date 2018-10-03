@@ -41,7 +41,7 @@ the higher power consumption is.
 |1,34V|1296MHz|
 
 !!! Warning
-    It is recommended to use a radiator for the stable CPU operation
+    It is recommended to use a heatsink for the stable CPU operation
 
 ## Absolute maximum ratings
 
