@@ -2,14 +2,11 @@ Flasher has user friendly graphical interface.
 
 ## Download and run
 
-!!! note ""
-    In the meantime, please use Linux operating system to flash your devices. Flash tool for Mac OS X and Windows are coming soon.
+Neutis Manufacturing Flash Tool is available for Linux and Windows
 
-| Neutis Flasher for Linux |
-|------------|
-| [**Download**](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.0.0.tar.bz2) |
+#### Linux
 
-
+* Download [Neutis Flasher for Linux](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.0.0.tar.bz2)
 * Using terminal navigate to directory with downloaded archive and extract it:
 ```sh
  cd ~/Downloads
@@ -20,6 +17,17 @@ Flasher has user friendly graphical interface.
 ```sh
 sudo ./neutis-flasher-start.sh
 ```
+
+#### Windows
+
+* Download [Neutis Flasher for Windows](link)
+* Launch downloaded executable and follow the installation wizard
+* After installation is finished Neutis Manufacturing Flash Tool shortcut will appear on your desktop
+
+!!! note
+    During the first launch of the app Windows may ask you for network access, bacause Flasher's inner architecture is based on client-server structure.
+    The application doesn't send any data over the Internet.
+
 
 ## Flashing process
 
