@@ -2,9 +2,13 @@
 To start working with Neutis, flash it with a Linux image.
 You can download the latest dev image below:
 
-| Dev image | 
+| Yocto image |
 |------------|
 |[Download](http://files.emlid.com/neutis/firmware/neutis-image-v1.0.4.zip)|
+
+| Dev Ubuntu Xenial image |
+|------------|
+|[Download](http://files.emlid.com/neutis/firmware/neutis-ubuntu-xenial-image.zip)|
 
 Neutis Dev Kit includes a heatsink, attach it by the following way:
 
