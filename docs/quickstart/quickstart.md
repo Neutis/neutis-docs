@@ -6,9 +6,13 @@ You can download the latest dev image below:
 |------------|
 |[Download](http://files.emlid.com/neutis/firmware/neutis-image-v1.0.4.zip)|
 
-| Dev Ubuntu Xenial image |
+| Ubuntu Xenial image - dev release |
 |------------|
 |[Download](http://files.emlid.com/neutis/firmware/neutis-ubuntu-xenial-image.zip)|
+
+
+!!! note
+    Do not wait for Neutis tests in Emlid Flasher, unplug your module after flashing progress bar.
 
 Neutis Dev Kit includes a heatsink, attach it by the following way:
 
