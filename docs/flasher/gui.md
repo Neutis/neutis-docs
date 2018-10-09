@@ -22,6 +22,7 @@ sudo ./neutis-flasher-start.sh
 
 * Download [Neutis Flasher for Windows](link)
 * Launch downloaded executable and follow the installation wizard
+* You will be asked to install `Microsoft Visual C++ Redistributable`. Accept the licence agreement and install it
 * After installation is finished Neutis Manufacturing Flash Tool shortcut will appear on your desktop
 
 !!! note
