@@ -6,7 +6,7 @@ Neutis Manufacturing Flash Tool is available for Linux and Windows
 
 #### Linux
 
-* Download [Neutis Flasher for Linux](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.0.0.tar.bz2)
+* Download [Neutis Flasher for Linux](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.1.1.tar.bz2)
 * Using terminal navigate to directory with downloaded archive and extract it:
 ```sh
  cd ~/Downloads
