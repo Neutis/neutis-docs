@@ -38,15 +38,7 @@ You will be in the build directory. After that you can start building an image w
 bitbake neutis-image
 ```
 
-Or
-
-``` bash
-bitbake neutis-minimal-image
-```
-
 `neutis-image` - an image that allows running the examples.
-
-`neutis-minimal-image` - a small image just capable of allowing a device to boot.
 
 You will find your image here:
 `$BUILD/tmp/deploy/images/neutis-n5/*.sunxi-sdimg`
