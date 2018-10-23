@@ -4,11 +4,11 @@ You can download the latest dev image below:
 
 | Yocto image |
 |------------|
-|[Download](http://files.emlid.com/neutis/firmware/neutis-image-v1.0.4.zip)|
+|[Download](http://files.emlid.com/neutis/firmware/neutis-image-v1.0.6.zip)|
 
 | Ubuntu Xenial image - dev release |
 |------------|
-|[Download](http://files.emlid.com/neutis/firmware/neutis-ubuntu-xenial-image.zip)|
+|[Download](http://files.emlid.com/neutis/firmware/neutis-ubuntu-xenial-image_v1.0.6.zip)|
 
 
 !!! note
