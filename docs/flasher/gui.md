@@ -39,6 +39,15 @@ Neutis Manufacturing Flash Tool is available for Linux and Windows
 
         ./neutis-flasher-start.sh
 
+<details close>
+<summary><font size="-1">Other versions</font></summary>
+
+* [neutis-manufacturing-flash-tool-v1.1.1.tar.bz2](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.1.1.tar.bz2)
+* [neutis-manufacturing-flash-tool-v1.1.0.tar.bz2](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.1.0.tar.bz2)
+* [neutis-manufacturing-flash-tool-v1.0.0.tar.bz2](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.0.0.tar.bz2)
+
+</details>
+
 #### Windows
 
 * Download [neutis-manufacturing-flash-tool_1.2.1_setup.exe](http://files.emlid.com/flash-tools/win/neutis-manufacturing-flash-tool_1.2.1_setup.exe)
@@ -48,6 +57,13 @@ Neutis Manufacturing Flash Tool is available for Linux and Windows
 !!! note
     During the first launch of the app Windows may ask you for network access, bacause Flasher's inner architecture is based on client-server structure.
     The application doesn't send any data over the Internet.
+
+<details close>
+<summary><font size="-1">Old versions</font></summary>
+
+* [neutis-manufacturing-flash-tool-v1.1.1-setup.exe](files.emlid.com/flash-tools/win/neutis-manufacturing-flash-tool-v1.1.1-setup.exe)
+
+</details>
 
 ## Flashing process
 
