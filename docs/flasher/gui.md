@@ -9,9 +9,26 @@ Neutis Manufacturing Flash Tool is available for Linux and Windows
 !!! warning
     Do not launch Neutis Manufacturing Flash Tool with **sudo** on Linux
 
+##### Deb package
+
+* Download [neutis-manufacturing-flash-tool_1.2.1_all.deb](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool_1.2.1_all.deb)
+
+* Using terminal navigate to the directory with the downloaded file and install it:
+
+```sh
+sudo dpkg -i neutis-manufacturing-flash-tool_1.2.1_all.deb
+```
+
+* After installation, you'll find the app in the applications list
+
+<div style="text-align:center"><img src ="../../img/flasher/unity_dash.png" width=800></div>
+
+
+##### Tar archive
+
 * Download [neutis-manufacturing-flash-tool_1.2.1.tar.bz2](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool_1.2.1.tar.bz2)
 
-* Using terminal navigate to directory with downloaded archive and extract it:
+* Using terminal navigate to the directory with the downloaded archive and extract it:
 
 ```sh
  cd ~/Downloads
