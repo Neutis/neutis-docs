@@ -8,14 +8,23 @@ Neutis Manufacturing Flash Tool is available for Linux and Windows
 
 * Download [Neutis Flasher for Linux](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.1.1.tar.bz2)
 * Using terminal navigate to directory with downloaded archive and extract it:
+
 ```sh
  cd ~/Downloads
  tar -xvf neutis-manufacturing-flash-tool-v1.0.0.tar.bz2 
  cd Neutis\ Manufacturing\ Flash\ Tool/
 ```
-* Run starting script with `sudo`:
+
+* Run installation script to set up **udev rules** for Neutis:
+
 ```sh
-sudo ./neutis-flasher-start.sh
+sudo ./install.sh
+```
+
+* Launch the application:
+
+```sh
+./neutis-flasher-start.sh
 ```
 
 #### Windows
@@ -28,7 +37,6 @@ sudo ./neutis-flasher-start.sh
 !!! note
     During the first launch of the app Windows may ask you for network access, bacause Flasher's inner architecture is based on client-server structure.
     The application doesn't send any data over the Internet.
-
 
 ## Flashing process
 
