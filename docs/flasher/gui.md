@@ -6,12 +6,16 @@ Neutis Manufacturing Flash Tool is available for Linux and Windows
 
 #### Linux
 
-* Download [Neutis Flasher for Linux](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.1.1.tar.bz2)
+!!! warning
+    Do not launch Neutis Manufacturing Flash Tool with **sudo** on Linux
+
+* Download [neutis-manufacturing-flash-tool_1.2.1.tar.bz2](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool_1.2.1.tar.bz2)
+
 * Using terminal navigate to directory with downloaded archive and extract it:
 
 ```sh
  cd ~/Downloads
- tar -xvf neutis-manufacturing-flash-tool-v1.0.0.tar.bz2 
+ tar -xvf neutis-manufacturing-flash-tool_1.2.1.tar.bz2
  cd Neutis\ Manufacturing\ Flash\ Tool/
 ```
 
@@ -29,10 +33,9 @@ sudo ./install.sh
 
 #### Windows
 
-* Download [Neutis Flasher for Windows](http://files.emlid.com/flash-tools/win/neutis-manufacturing-flash-tool-v1.1.1-setup.exe)
-* Launch downloaded executable and follow the installation wizard
-* You will be asked to install `Microsoft Visual C++ Redistributable`. Accept the licence agreement and install it
-* After installation is finished Neutis Manufacturing Flash Tool shortcut will appear on your desktop
+* Download [neutis-manufacturing-flash-tool_1.2.1_setup.exe](http://files.emlid.com/flash-tools/win/neutis-manufacturing-flash-tool_1.2.1_setup.exe)
+* Launch it and follow the installation wizard
+* After installation you'll find Neutis Manufacturing Flash Tool shortcut on the desktop and in the Start menu
 
 !!! note
     During the first launch of the app Windows may ask you for network access, bacause Flasher's inner architecture is based on client-server structure.
