@@ -39,8 +39,10 @@ Neutis Manufacturing Flash Tool is available for Linux and Windows
 
         ./neutis-flasher-start.sh
 
+Log files can be found at `"~/.local/share/Emlid/Neutis Manufacturing Flash Tool/logs/"`
+
 <details close>
-<summary><font size="-1">Other versions</font></summary>
+<summary><font size="-1">Old versions</font></summary>
 
 * [neutis-manufacturing-flash-tool-v1.1.1.tar.bz2](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.1.1.tar.bz2)
 * [neutis-manufacturing-flash-tool-v1.1.0.tar.bz2](http://files.emlid.com/flash-tools/linux/neutis-manufacturing-flash-tool-v1.1.0.tar.bz2)
@@ -53,6 +55,8 @@ Neutis Manufacturing Flash Tool is available for Linux and Windows
 * Download [neutis-manufacturing-flash-tool_1.2.1_setup.exe](http://files.emlid.com/flash-tools/win/neutis-manufacturing-flash-tool_1.2.1_setup.exe)
 * Launch it and follow the installation wizard
 * After installation you'll find Neutis Manufacturing Flash Tool shortcut on the desktop and in the Start menu
+
+Log files can be found at `"C:\Users\<username>\AppData\Local\Emlid\Neutis Manufacturing Flash Tool\logs"`
 
 !!! note
     During the first launch of the app Windows may ask you for network access, bacause Flasher's inner architecture is based on client-server structure.
