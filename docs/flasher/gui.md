@@ -6,7 +6,7 @@ Neutis Manufacturing Flash Tool is available for Linux and Windows
 
 #### Linux
 
-!!! warning
+!!! warning ""
     Do not launch Neutis Manufacturing Flash Tool with **sudo** on Linux
 
 ##### Deb package
@@ -58,7 +58,7 @@ Log files can be found at `"~/.local/share/Emlid/Neutis Manufacturing Flash Tool
 
 Log files can be found at `"C:\Users\<username>\AppData\Local\Emlid\Neutis Manufacturing Flash Tool\logs"`
 
-!!! note
+!!! note ""
     During the first launch of the app Windows may ask you for network access, bacause Flasher's inner architecture is based on client-server structure.
     The application doesn't send any data over the Internet.
 
@@ -90,7 +90,7 @@ The whole flashing procedure consists of 3 steps:
 * Firmware flashing
 * Hardware testing
 
-!!! warning
+!!! warning ""
     In case something went wrong during initialization step and error occured, please disconnect Neutis from PC to prevent unit overheating
 
 At the end of hardware testing Neutis sends self-tests results and Flasher shows QR code unique for each Neutis.
