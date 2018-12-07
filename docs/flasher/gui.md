@@ -59,7 +59,7 @@ Log files can be found at `"~/.local/share/Emlid/Neutis Manufacturing Flash Tool
 Log files can be found at `"C:\Users\<username>\AppData\Local\Emlid\Neutis Manufacturing Flash Tool\logs"`
 
 !!! note ""
-    During the first launch of the app Windows may ask you for network access, bacause Flasher's inner architecture is based on client-server structure.
+    During the first app launch, Windows may request the network access as Flasher's inner architecture is based on client-server structure.
     The application doesn't send any data over the Internet.
 
 <details close>
