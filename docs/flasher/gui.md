@@ -75,11 +75,11 @@ Log files can be found at `"C:\Users\<username>\AppData\Local\Emlid\Neutis Manuf
 
 ## Flashing process
 
-Session starts with initial window prompting you to choose mode (flashing or testing).
+Session starts with initial window prompting you to choose mode (flashing, testing or both).
 
 <div style="text-align:center"><img src ="../../img/flasher/start_screen.png"></div>
 
-In flashing mode you also need to select firmware image.
+In `Flashing + Testing` mode you also need to select firmware image.
 
 <div style="text-align:center"><img src ="../../img/flasher/firmware_selected.png"></div>
 
