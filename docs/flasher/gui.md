@@ -54,6 +54,10 @@ Log files can be found at `"~/.local/share/Emlid/Neutis Manufacturing Flash Tool
 
 * Download [neutis-manufacturing-flash-tool_1.2.1_setup.exe](http://files.emlid.com/flash-tools/win/neutis-manufacturing-flash-tool_1.2.1_setup.exe)
 * Launch it and follow the installation wizard
+
+!!! note ""
+    Installer may hang on 50% for a few minutes to install drivers for Neutis.
+
 * After installation you'll find Neutis Manufacturing Flash Tool shortcut on the desktop and in the Start menu
 
 Log files can be found at `"C:\Users\<username>\AppData\Local\Emlid\Neutis Manufacturing Flash Tool\logs"`
